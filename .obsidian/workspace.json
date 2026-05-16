@@ -199,27 +199,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Regression.md",
+                "file": "Information-Gain.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linear Regression"
-            }
-          },
-          {
-            "id": "8c3f3d648d3b0f83",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Information-Gain"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -233,12 +223,36 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "0c65f6a6c1ad3e9f",
+  "active": "62c9acb2a982b415",
   "lastOpenFiles": [
+    "package-lock.json",
+    "node_modules/moment/moment.d.ts",
+    "node_modules/moment/ts3.1-typings/moment.d.ts",
+    "node_modules/moment/ts3.1-typings",
+    "node_modules/moment/README.md",
+    "node_modules/moment/CHANGELOG.md",
+    "node_modules/moment/package.json",
+    "node_modules/moment/src/locale/zh-tw.js",
+    "node_modules/moment/locale/zh-tw.js",
+    "node_modules/moment/dist/locale/zh-tw.js",
+    "node_modules/moment/src/locale/zh-mo.js",
+    "node_modules/moment/locale/zh-mo.js",
+    "node_modules/moment/dist/locale/zh-mo.js",
+    "node_modules/@kwsites/file-exists/readme.md",
+    "node_modules/@kwsites/file-exists/CHANGELOG.md",
+    "node_modules/simple-git/readme.md",
+    "node_modules/ms/readme.md",
+    "node_modules/ms/license.md",
+    "node_modules/debug/README.md",
+    "StatsQuest/#02: Machine Learning Fundamentals — Cross Validation.md",
+    "StatsQuest/#01: A Gentle Introduction to Machine Learning.md",
+    "StatsQuest/#05: Sensitivity, Specificity, Precision & Recall — The Complete Picture.md",
+    "StatsQuest/#04: Machine Learning Fundamentals — Sensitivity and Specificity.md",
+    "StatsQuest/#03: Machine Learning Fundamentals — The Confusion Matrix.md",
+    "StatsQuest/01: A Gentle Introduction to Machine Learning.md",
     "Untitled.md",
     "Information-Gain.md",
     "Bias and Variance.md",
@@ -250,31 +264,6 @@
     "Statistics/Random Variable & Its Types.md",
     "Statistics/P value - The Null Hypothesis test.md",
     "SVM kernels - Part 3.md",
-    "ReadMe.md",
-    "EDA/Uni, Bi, Multivariate Exploratory Analysis.md",
-    "Machine-Learning/Bias-Variance & Regularization/PCA.md",
-    "Cross-Validation.md",
-    "Machine-Learning/Classification/DbScan-Clustering.md",
-    "Machine-Learning/Classification/Naive baeyes Classification.md",
-    "Machine-Learning/Classification/K-Means Clustering.md",
-    "EDA/OverSampling - Imbalanced Dataset.md",
-    "SVM - Part 2.md",
-    "Support Vector Machines.md",
-    "EDA/Under-Sampling - Imbalanced Dataset.md",
-    "Machine-Learning/Classification/Hierarchical Clustering.md",
-    "Machine-Learning/Classification/Validating Clustering score.md",
-    "Machine-Learning/Classification/Naive Baeyes NLP.md",
-    "Untitled 1",
-    "Machine-Learning/distance & similarity",
-    "Machine-Learning/Regression/metrics/r2 mae mse rmse.md",
-    "Machine-Learning/hyper-parameter tuning",
-    "Machine-Learning/Classification/metrics",
-    "Machine-Learning/stat-foundation",
-    "Machine-Learning/Regression/metrics",
-    "Machine-Learning/ensemble-methods",
-    "Machine-Learning/Classification",
-    "Machine-Learning/Bias-Variance & Regularization",
-    "Machine-Learning/Regression",
     "Untitled.canvas",
     "Pasted image 20260420181951.png",
     "Pasted image 20260420181654.png",
