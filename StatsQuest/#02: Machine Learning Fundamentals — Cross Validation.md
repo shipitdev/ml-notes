@@ -105,4 +105,4 @@ Where Score_k is whatever metric you're using (accuracy, RMSE, AUC, etc.) comput
 
 ---
 
-_Tags: #statquest #machine-learning #cross-validation #k-fold #model-evaluation #overfitting #train-test-split #hyperparameter-tuning_
+\_Tags: #statquest #machine-learning #cross-validation #k-fold #model-evaluation #overfitting #train-test-split #hyperparameter-tuning
