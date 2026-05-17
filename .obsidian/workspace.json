@@ -228,6 +228,7 @@
   },
   "active": "62c9acb2a982b415",
   "lastOpenFiles": [
+    "StatsQuest/#03: Machine Learning Fundamentals — The Confusion Matrix.md",
     "package-lock.json",
     "node_modules/moment/moment.d.ts",
     "node_modules/moment/ts3.1-typings/moment.d.ts",
@@ -240,7 +241,6 @@
     "node_modules/moment/dist/locale/zh-tw.js",
     "node_modules/moment/src/locale/zh-mo.js",
     "node_modules/moment/locale/zh-mo.js",
-    "node_modules/moment/dist/locale/zh-mo.js",
     "node_modules/@kwsites/file-exists/readme.md",
     "node_modules/@kwsites/file-exists/CHANGELOG.md",
     "node_modules/simple-git/readme.md",
@@ -251,7 +251,6 @@
     "StatsQuest/#01: A Gentle Introduction to Machine Learning.md",
     "StatsQuest/#05: Sensitivity, Specificity, Precision & Recall — The Complete Picture.md",
     "StatsQuest/#04: Machine Learning Fundamentals — Sensitivity and Specificity.md",
-    "StatsQuest/#03: Machine Learning Fundamentals — The Confusion Matrix.md",
     "StatsQuest/01: A Gentle Introduction to Machine Learning.md",
     "Untitled.md",
     "Information-Gain.md",
