@@ -193,8 +193,19 @@
               "icon": "lucide-list",
               "title": "Outline of Linear Regression"
             }
+          },
+          {
+            "id": "8c3f3d648d3b0f83",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
