@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression Models Simplified.md",
+                "file": "Machine-learning/Logistic Regression - How it works.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regression Models Simplified"
+              "title": "Logistic Regression - How it works"
             }
           }
         ],
@@ -226,9 +226,12 @@
   },
   "active": "62c9acb2a982b415",
   "lastOpenFiles": [
+    "Machine-learning/T-Test, Chi-Square, ANOVA, Correlation — when to use what.md",
+    "Machine-learning/Regression Models Simplified.md",
+    "Machine-learning",
+    "Untitled",
     "Statistics/Log Normal Distribution.md",
-    "Regression Models Simplified.md",
-    "Z-Score Statistics in Data Science.md",
+    "Machine-learning/Z-Score Statistics in Data Science.md",
     "Statistics/Statistics Roadmap.md",
     "EDA/CheatSheet - EDA Visualization with Charts.md",
     "Machine-Learning",
@@ -238,23 +241,21 @@
     "EDA/EDA - Pipeline.md",
     "EDA/Uni, Bi, Multivariate Exploratory Analysis.md",
     "EDA/EDA on Numerical Data -Key learnings.md",
-    "RULE ( Linear Models ).md",
-    "Ridge & Lasso Regression Indepth Intuition.md",
+    "Machine-learning/RULE ( Linear Models ).md",
+    "Machine-learning/Ridge & Lasso Regression Indepth Intuition.md",
     "Feature-Selection/FS - Variance threshold — strict & quasi-constant filtering.md",
-    "Variance Good or Bad for models?.md",
+    "Machine-learning/Variance Good or Bad for models?.md",
     "Feature-Engineering/Normalisation Vs Standardization.md",
     "Feature-Selection/FS - Pearson's Correlation for Multicollinearity.md",
-    "Bias And Variance in Depth.md",
-    "T-Test, Chi-Square, ANOVA, Correlation — when to use what.md",
-    "T-Test, Paired T-Test, Correlation in Python.md",
-    "Ridge VS Lasso !When & !Why.md",
-    "Decision Trees - Gini Impurity ( most efficient ).md",
-    "Decision Trees - Information Gain.md",
-    "Decision Trees - Entropy.md",
-    "Multiple Linear Regression.md",
-    "Multiple Linear Regression- Part two.md",
+    "Machine-learning/Bias And Variance in Depth.md",
+    "Machine-learning/T-Test, Paired T-Test, Correlation in Python.md",
+    "Machine-learning/Ridge VS Lasso !When & !Why.md",
+    "Machine-learning/Decision Trees - Gini Impurity ( most efficient ).md",
+    "Machine-learning/Decision Trees - Information Gain.md",
+    "Machine-learning/Decision Trees - Entropy.md",
+    "Machine-learning/Multiple Linear Regression.md",
+    "Machine-learning/Multiple Linear Regression- Part two.md",
     "Statistics/Pearson Correlation Coefficent.md",
-    "Statistics/Chebyshev's Inequality.md",
     "EDA",
     "Untitled 14-22-22-734",
     "Untitled 13-37-58-687",
@@ -269,8 +270,6 @@
     "old/media/Gradient Descent.png",
     "old/media/Constant variange.png",
     "old/media",
-    "old",
-    "Feature",
     "Pasted image 20260420161631.png"
   ]
 }
