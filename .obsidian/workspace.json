@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feature-Engineering/Why do We need to Perform Feature Scaling?.md",
+                "file": "Feature-Engineering/Why Feature Scale ? Dist Vs Gradient Based Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why do We need to Perform Feature Scaling?"
+              "title": "Why Feature Scale ? Dist Vs Gradient Based Models"
             }
           }
         ],
@@ -121,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 347.5
   },
   "right": {
     "id": "dc417d7fb910aec9",
@@ -241,7 +241,7 @@
   "active": "10f1a4cc50c20688",
   "lastOpenFiles": [
     "Feature-Engineering/Nominal vs Ordinal (Turning categorical Words into Numbers) Feature Engineering.md",
-    "Feature-Engineering/Why do We need to Perform Feature Scaling?.md",
+    "Feature-Engineering/Why Feature Scale ? Dist Vs Gradient Based Models.md",
     "Feature-Engineering/FE-(Key learnings) Handling Discrete Numerical Categories (hidden categories) & More.md",
     "Feature-Engineering/Top-K & One-Hot Encoding for High-Cardinality OR Multi-Categorical Variables.md",
     "Feature-Selection/FS - Pearson's Correlation for Multicollinearity.md",
