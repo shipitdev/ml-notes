@@ -18,7 +18,7 @@ When raw data is collected from the real world, finding missing cells is complet
 
 #### When to Use It
 
-When the missing data is extremely tiny (typically less than $1%$ or $2%$ of your entire dataset) **or** when a row is missing values across almost all of its columns, making it completely useless.
+When the missing data is extremely tiny (typically less than 1% or 2% of your entire dataset) **or** when a row is missing values across almost all of its columns, making it completely useless.
 
 #### Why We Use It
 
@@ -55,7 +55,7 @@ The pipeline spots that House 103 has a missing string value. Since the overall 
 
 #### When to Use It
 
-When the missing values make up a small fraction of your data (less than $5%$ to $10%$) **and** the column is heavily dominated by one single, highly popular choice.
+When the missing values make up a small fraction of your data (less than 5% to 10%) **and** the column is heavily dominated by one single, highly popular choice.
 
 #### Why We Use It
 
@@ -98,7 +98,7 @@ It is computationally lightweight and easy to implement. It works on simple prob
 
 #### When to Use It
 
-When the missing data rate is relatively high ($10%$ to $30%$) and you can clearly see that the missing column has a **strong relationship** with your other complete columns.
+When the missing data rate is relatively high (10% to 30%) and you can clearly see that the missing column has a **strong relationship** with your other complete columns.
 
 #### Why We Use It
 

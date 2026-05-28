@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feature-Engineering/Why Feature Scale ? Dist Vs Gradient Based Models.md",
+                "file": "Feature-Engineering/How To Handle Ordinal Categories(Ordinal Encoding).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why Feature Scale ? Dist Vs Gradient Based Models"
+              "title": "How To Handle Ordinal Categories(Ordinal Encoding)"
             }
           }
         ],
@@ -240,8 +240,10 @@
   },
   "active": "10f1a4cc50c20688",
   "lastOpenFiles": [
-    "Feature-Engineering/Nominal vs Ordinal (Turning categorical Words into Numbers) Feature Engineering.md",
+    "Feature-Engineering/Count or Frequency Encoding for Categorical Fields.md",
+    "Feature-Engineering/How To Handle Missing Values in Categorical Features.md",
     "Feature-Engineering/Why Feature Scale ? Dist Vs Gradient Based Models.md",
+    "Feature-Engineering/Nominal vs Ordinal (Turning categorical Words into Numbers) Feature Engineering.md",
     "Feature-Engineering/FE-(Key learnings) Handling Discrete Numerical Categories (hidden categories) & More.md",
     "Feature-Engineering/Top-K & One-Hot Encoding for High-Cardinality OR Multi-Categorical Variables.md",
     "Feature-Selection/FS - Pearson's Correlation for Multicollinearity.md",
@@ -269,8 +271,6 @@
     "Feature-Engineering/Normalisation Vs Standardization.md",
     "Machine-Learning/Bias And Variance in Depth.md",
     "Machine-Learning/T-Test, Paired T-Test, Correlation in Python.md",
-    "Machine-Learning/Ridge VS Lasso !When & !Why.md",
-    "Machine-Learning/Decision Trees - Gini Impurity ( most efficient ).md",
     "EDA",
     "Untitled 14-22-22-734",
     "Untitled 13-37-58-687",
