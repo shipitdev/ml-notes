@@ -1,4 +1,4 @@
-# 🌳 Machine Learning & Quantitative Finance Architecture Notes
+# 🌳 Machine Learning Notes
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Obsidian](https://img.shields.io/badge/Vault-Obsidian-purple.svg)](https://obsidian.md/)
