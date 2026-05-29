@@ -252,8 +252,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3eb30ad07b23fb9",
+  "active": "62c9acb2a982b415",
   "lastOpenFiles": [
+    "Statistics- 110 (Harvard)",
     "Feature-Engineering/FE - Imputations (MCAR,MNAR + 5 imputation methods).md",
     "Review.md",
     "Feature-Engineering/FE- Imputations (3 distribution-preserving techniques).md",
@@ -274,7 +275,6 @@
     "Machine-Learning/T-Test, Chi-Square, ANOVA, Correlation — when to use what.md",
     "Machine-Learning/Regression Models Simplified.md",
     "Machine-Learning",
-    "Untitled",
     "Statistics/Log Normal Distribution.md",
     "Machine-Learning/Z-Score Statistics in Data Science.md",
     "Statistics/Statistics Roadmap.md",
@@ -284,7 +284,6 @@
     "Untitled.canvas",
     "EDA/EDA - histogram pattern recognition.md",
     "EDA/EDA - Pipeline.md",
-    "Machine-Learning/RULE ( Linear Models ).md",
     "EDA",
     "Untitled 14-22-22-734",
     "Untitled 13-37-58-687",
