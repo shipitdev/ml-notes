@@ -95,14 +95,13 @@
             "id": "e600cc8cd4ca396f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Statistics- 110 (Harvard)/Stats 110 -  L1,2- Probability & Counting.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Stats 110 -  L1,2- Probability & Counting"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ],
@@ -265,8 +264,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,8 +280,9 @@
   },
   "active": "e600cc8cd4ca396f",
   "lastOpenFiles": [
-    "Statistics- 110 (Harvard)/Stars & Bars - Complete guide.md",
     "Statistics- 110 (Harvard)/Stats 110 -  L1,2- Probability & Counting.md",
+    "Untitled.base",
+    "Statistics- 110 (Harvard)/Stars & Bars - Complete guide.md",
     "Review.md",
     "Statistics- 110 (Harvard)",
     "Feature-Engineering/FE - Imputations (MCAR,MNAR + 5 imputation methods).md",
@@ -310,9 +309,7 @@
     "Statistics/Statistics Roadmap.md",
     "EDA/CheatSheet - EDA Visualization with Charts.md",
     "Machine-Learning",
-    "Untitled.base",
     "Untitled.canvas",
-    "EDA/EDA - histogram pattern recognition.md",
     "EDA",
     "Untitled 14-22-22-734",
     "Untitled 13-37-58-687",

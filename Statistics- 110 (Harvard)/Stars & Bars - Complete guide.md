@@ -36,14 +36,14 @@ You want to distribute **$k$ identical items** across **$n$ distinct bins**.
 
 **Classic disguises in problem statements:**
 
-|Phrasing|$n$|$k$|
-|---|---|---|
-|Distribute 10 identical apples to 4 kids|4 kids|10 apples|
-|Choose 5 donuts from 3 flavours, repeats ok|3 flavours|5 donuts|
-|Buy 6 stamps from 4 denominations|4 denominations|6 stamps|
-|How many ways to roll 3 dice (unordered results)?|6 face values|3 rolls|
-|Non-negative integer solutions to $x_1+x_2+x_3=8$|3 variables|8 total|
-|Distribute 12 identical cookies to 4 kids|4 kids|12 cookies|
+| Phrasing                                          | $n$             | $k$        |
+| ------------------------------------------------- | --------------- | ---------- |
+| Distribute 10 identical apples to 4 kids          | 4 kids          | 10 apples  |
+| Choose 5 donuts from 3 flavours, repeats ok       | 3 flavours      | 5 donuts   |
+| Buy 6 stamps from 4 denominations                 | 4 denominations | 6 stamps   |
+| How many ways to roll 3 dice (unordered results)? | 6 face values   | 3 rolls    |
+| Non-negative integer solutions to $x_1+x_2+x_3=8$ | 3 variables     | 8 total    |
+| Distribute 12 identical cookies to 4 kids         | 4 kids          | 12 cookies |
 
 > [!NOTE] The keyword radar Watch for: _identical, indistinguishable, any amount, flavours/types, denominations, non-negative integer solutions, unordered._ Any of these is a hint toward stars & bars.
 

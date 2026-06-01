@@ -1,25 +1,42 @@
-**Course:** Harvard Statistics 110 — Introduction to Probability  
-**Instructor:** Joe Blitzstein  
-**Tags:** #stats110 #probability #counting #unit1  
-**Status:** #complete  
-**Links:** [[Stats 110 MOC]] | [[Lecture 3 — Birthday Problem & Axioms]]
+---
+
+tags:
+
+- stats110
+- probability
+- counting
+- unit1 aliases:
+- Stats 110 Lectures 1 & 2
+- Probability and Counting series: "Harvard Stats 110" lecture_number: "1-2" status: complete created: 2026-05-29 source: "https://www.youtube.com/watch?v=KbB0FoqQLps"
+
+---
+
+# Stats 110 — Lectures 1 & 2: Probability & Counting
+
+**Course:** Harvard Statistics 110 — Introduction to Probability **Instructor:** Joe Blitzstein
+
+---
+
+## ⚡ TL;DR — plain english summary
+
+Probability is just counting pebbles. When all outcomes are equally likely, $P(A) = |A|/|S|$ — count the outcomes you want, divide by all outcomes. Everything in Lectures 1–2 is about counting those outcomes reliably using the multiplication rule, permutations, and combinations. The two questions to ask on every counting problem: does order matter? Can items repeat?
 
 ---
 
 ## 🗺️ Overview
 
-> [!NOTE] What these lectures cover Lectures 1 & 2 build the **entire foundation** of probability theory.
-> 
-> - What probability _means_
-> - How to define a sample space and events
-> - The **naive definition** of probability
-> - Counting techniques: multiplication rule, permutations, combinations
-> - The **sampling table** — the cheat sheet for all counting problems
-> - First look at the Birthday Problem
+Lectures 1 & 2 build the **entire foundation** of probability theory.
+
+- What probability _means_
+- How to define a sample space and events
+- The **naive definition** of probability
+- Counting techniques: multiplication rule, permutations, combinations
+- The **sampling table** — the cheat sheet for all counting problems
+- First look at the Birthday Problem
 
 ---
 
-## 1 · What Is Probability?
+## 1 · What is probability?
 
 Two competing philosophies — the math is identical, but the interpretation differs:
 
@@ -32,15 +49,13 @@ Two competing philosophies — the math is identical, but the interpretation dif
 
 ---
 
-## 2 · Sample Space & Events
+## 2 · Sample space & events
 
 ### Definitions
 
-> [!DEFINITION] **Sample space** $S$ = the set of _all possible outcomes_ of an experiment.  
-> **Event** $A$ = any subset of $S$, i.e., $A \subseteq S$.  
-> **Probability** $P$ = a function mapping events to $[0, 1]$.
+> [!NOTE] Core definitions **Sample space** $S$ = the set of all possible outcomes of an experiment. **Event** $A$ = any subset of $S$, i.e., $A \subseteq S$. **Probability** $P$ = a function mapping events to $[0, 1]$.
 
-### The Pebble World 🪨
+### The pebble world 🪨
 
 Think of each outcome as a **pebble** with a weight.
 
@@ -49,7 +64,7 @@ Think of each outcome as a **pebble** with a weight.
 
 This is the entire intuition of probability. Every calculation you do is just asking: _which pebbles are in the event, and how heavy are they?_
 
-### Examples of Sample Spaces
+### Examples of sample spaces
 
 |Experiment|Sample Space $S$|
 |---|---|
@@ -62,36 +77,33 @@ This is the entire intuition of probability. Every calculation you do is just as
 
 ---
 
-## 3 · The Naive Definition of Probability
+## 3 · The naive definition of probability
 
-> [!DEFINITION] Naive Definition $$P(A) = \frac{|A|}{|S|} = \frac{\text{number of outcomes in } A}{\text{total number of outcomes}}$$ **Valid only when all outcomes are equally likely.**
+> [!NOTE] Naive Definition $$P(A) = \frac{|A|}{|S|} = \frac{\text{number of outcomes in } A}{\text{total number of outcomes}}$$ **Valid only when all outcomes are equally likely.**
 
 ### When can you use it?
 
-✅ Fair coin, fair die, random card draws, random arrangements of people  
-❌ Loaded dice, biased coins, non-uniform distributions
+- ✅ Fair coin, fair die, random card draws, random arrangements of people
+- ❌ Loaded dice, biased coins, non-uniform distributions
 
 > [!CAUTION] This is a big assumption! Most of Stats 110 is about building the **non-naive** framework. But for Lectures 1–2, assume equally likely outcomes unless told otherwise.
 
 ---
 
-## 4 · Counting — The Multiplication Rule
+## 4 · Counting — the multiplication rule
 
-To use naive probability, you need to count outcomes reliably. The master tool:
-
-> [!FORMULA] Multiplication Rule If experiment 1 has $n_1$ outcomes, and for each outcome, experiment 2 has $n_2$ outcomes, …, then: $$\text{Total outcomes} = n_1 \times n_2 \times \cdots \times n_k$$
+> [!NOTE] Multiplication Rule If experiment 1 has $n_1$ outcomes, and for each outcome, experiment 2 has $n_2$ outcomes, …, then: $$\text{Total outcomes} = n_1 \times n_2 \times \cdots \times n_k$$
 
 ### Example
 
 Choosing an outfit: 3 shirts × 4 pants × 2 shoes = **24** possible outfits.
 
-Visualised as a **tree diagram**: each branch multiplies the choices.
-
 ```
 Shirt 1 ── Pants 1 ── Shoes A  →  outcome 1
-         |          └── Shoes B  →  outcome 2
-         ├── Pants 2 ── Shoes A  →  outcome 3
-         ...
+        │          └── Shoes B  →  outcome 2
+        ├── Pants 2 ── Shoes A  →  outcome 3
+        │          └── Shoes B  →  outcome 4
+        └── ...
 Shirt 2 ── ...
 Shirt 3 ── ...
 ```
@@ -100,11 +112,11 @@ Shirt 3 ── ...
 
 ---
 
-## 5 · Permutations — Ordered Arrangements
+## 5 · Permutations — ordered arrangements
 
 ### Arranging all n objects
 
-> [!FORMULA] $n$ Factorial $$n! = n \times (n-1) \times (n-2) \times \cdots \times 1$$ **Why?** First slot: $n$ choices. Second slot: $n-1$ (one used). Third: $n-2$. Multiply all.
+> [!NOTE] n Factorial $$n! = n \times (n-1) \times (n-2) \times \cdots \times 1$$ **Why?** First slot: $n$ choices. Second slot: $n-1$ (one used). Third: $n-2$. Multiply all.
 
 |$n$|$n!$|
 |---|---|
@@ -117,24 +129,26 @@ Shirt 3 ── ...
 
 Note: $0! = 1$ by convention (there is exactly 1 way to arrange nothing).
 
-### Choosing and ordering k from n (no replacement)
+### Choosing and ordering k from n — no replacement
 
-> [!FORMULA] Permutations $P(n, k)$ $$P(n, k) = \frac{n!}{(n-k)!} = n \times (n-1) \times \cdots \times (n-k+1)$$
+> [!NOTE] Permutations P(n, k) $$P(n, k) = \frac{n!}{(n-k)!} = n \times (n-1) \times \cdots \times (n-k+1)$$
 
-**Example:** Gold, silver, bronze from 10 athletes: $$P(10, 3) = 10 \times 9 \times 8 = 720$$
+**Example:** Gold, silver, bronze from 10 athletes:
+
+$$P(10, 3) = 10 \times 9 \times 8 = 720$$
 
 ---
 
-## 6 · Combinations — The Binomial Coefficient
+## 6 · Combinations — the binomial coefficient
 
 When **order does NOT matter** (a committee is the same regardless of who was listed first):
 
-> [!FORMULA] Binomial Coefficient — "n choose k" $$\binom{n}{k} = \frac{n!}{k!,(n-k)!}$$
+> [!NOTE] Binomial Coefficient — "n choose k" $$\binom{n}{k} = \frac{n!}{k!,(n-k)!}$$
 
 ### The intuition behind the formula
 
-1. Start with $P(n, k)$ = all ordered selections = $\frac{n!}{(n-k)!}$
-2. Each group of $k$ items was counted $k!$ times (once for every ordering)
+1. Start with $P(n, k)$ = all ordered selections = $\dfrac{n!}{(n-k)!}$
+2. Each group of $k$ items was counted $k!$ times (once per ordering)
 3. Divide out the overcounting:
 
 $$\binom{n}{k} = \frac{P(n,k)}{k!} = \frac{n!}{k!,(n-k)!}$$
@@ -146,36 +160,34 @@ $$\binom{n}{k} = \frac{P(n,k)}{k!} = \frac{n!}{k!,(n-k)!}$$
 > - "Choose President, VP, Secretary from 10 people" → **order matters** → $P(n,k)$
 > - "Choose a committee of 3 from 10 people" → **order doesn't matter** → $\binom{n}{k}$
 
-### Useful values to know
+### Useful identities
 
 $$\binom{n}{0} = 1 \qquad \binom{n}{1} = n \qquad \binom{n}{n} = 1 \qquad \binom{n}{k} = \binom{n}{n-k}$$
 
-The last identity is elegant: choosing $k$ things to include is the same as choosing $n-k$ things to _exclude_.
+The last identity is elegant: choosing $k$ things to **include** is the same as choosing $n-k$ things to **exclude**.
 
 ---
 
 ## 7 · The sampling table 📊
 
-The two questions to ask on every counting problem:
+> [!INFO] The two questions to ask on every counting problem
+> 
+> 1. **Does order matter?**
+> 2. **With or without replacement?**
 
-1. **Does order matter?**
-2. **With or without replacement?**
+> [!NOTE] With replacement (items can repeat)
+> 
+> **Order matters:** $n^k$ — Each of the $k$ slots independently has $n$ choices.
+> 
+> **Order doesn't matter:** $\dbinom{n+k-1}{k}$ — Stars and bars formula. Less common in the first half of Stats 110.
 
-Your answers put you in one of four cells:
+> [!NOTE] Without replacement (no repeats)
+> 
+> **Order matters:** $\dfrac{n!}{(n-k)!}$ — Permutations. Multiply $n \times (n-1) \times \cdots \times (n-k+1)$.
+> 
+> **Order doesn't matter:** $\dbinom{n}{k}$ — Combinations. Divide permutations by $k!$ to remove ordering.
 
-**With replacement:**
-
-| Order matters | Order doesn't matter                    |
-| ------------- | --------------------------------------- |
-| $$nkn^k nk$$  | $$(n+k−1k)\dbinom{n+k-1}{k} (kn+k−1​)$$ |
-
-**Without replacement:**
-
-| Order matters                            | Order doesn't matter        |
-| ---------------------------------------- | --------------------------- |
-| $$n!(n−k)!\dfrac{n!}{(n-k)!} (n−k)!n!$$​ | $$(nk)\dbinom{n}{k} (kn​)$$ |
-
-> [!NOTE] The stars-and-bars cell > "With replacement, order doesn't matter" uses the stars-and-bars formula (n+k−1k)\binom{n+k-1}{k} (kn+k−1​). It appears less often in the first half of Stats 110. The other three cells are your daily workhorses.
+> [!TIP] Which cell are you in? "How many 3-letter words from 5 letters, no repeats?" → without replacement, order matters → $\dfrac{5!}{2!} = 60$ "How many 3-person committees from 10?" → without replacement, order doesn't matter → $\dbinom{10}{3} = 120$
 
 ---
 
@@ -183,47 +195,51 @@ Your answers put you in one of four cells:
 
 ### 🟢 Easy — 3-letter words
 
-> How many 3-letter "words" can be formed from {A, B, C, D, E}?
+> How many 3-letter "words" can be formed from ${A, B, C, D, E}$?
 
-**(a) With replacement** (letters can repeat): Each slot has 5 choices, independently → $$ 53=1255^3 = \mathbf{125} 53=125$$
+**(a) With replacement** (letters can repeat):
 
-**(b) Without replacement** (no letter repeats): $$5×4×3=605 \times 4 \times 3 = \mathbf{60} 5×4×3=60 — order matters, no repeats → P(5,3)P(5,3) P(5,3)$$ 
+$$5^3 = \mathbf{125}$$
+
+**(b) Without replacement** (no letter repeats):
+
+$$P(5,3) = 5 \times 4 \times 3 = \mathbf{60}$$
 
 ---
 
 ### 🟡 Medium — adjacent seating
 
-> 10 students sit randomly in a row of 10 chairs. What is P(Alice and Bob sit next to each other)P(\text{Alice and Bob sit next to each other}) P(Alice and Bob sit next to each other)?
+> 10 students sit randomly in a row. What is $P(\text{Alice and Bob sit next to each other})$?
 
-**Total arrangements:** 10!10! 10!
+**Total arrangements:** $10!$
 
-**Favorable:** Treat Alice+Bob as a single "super-person":
+**Favorable:** Treat Alice+Bob as a single block → 9 objects to arrange:
 
-- 9 objects to arrange: 9! ways
-- Alice and Bob can swap within the block: 2! ways
-- Favorable = 9!×29! \times 2 9!×2
+$$\text{Favorable} = 9! \times 2!$$
 
-$$ P=9!×210!=210=15P = \frac{9! \times 2}{10!} = \frac{2}{10} = \mathbf{\frac{1}{5}}P=10!9!×2​=102​=51 $$​
+$$P = \frac{9! \times 2}{10!} = \frac{2}{10} = \mathbf{\frac{1}{5}}$$
 
-> [!TIP] The "gluing" trick Whenever two items must be adjacent, treat them as a single block, count arrangements of blocks, then multiply by internal arrangements of the block. Works repeatedly throughout the course.
+> [!TIP] The "gluing" trick Whenever two items must be adjacent, treat them as a single block. Count arrangements of $(n-1)$ objects, then multiply by $2!$ for the internal swap.
 
 ---
 
 ### 🔴 Hard — full-suit poker hand
 
-> From a 52-card deck, what is P(a 5-card hand contains all 4 suits)P(\text{a 5-card hand contains all 4 suits}) P(a 5-card hand contains all 4 suits)?
+> From a 52-card deck, what is $P(\text{a 5-card hand contains all 4 suits})$?
 
-**Total 5-card hands:** $$ (525)=2,598,960\binom{52}{5} = 2{,}598{,}960 (552​)=2,598,960$$
+$$\text{Total 5-card hands} = \binom{52}{5} = 2{,}598{,}960$$
 
-**Favorable:** All 4 suits must appear in 5 cards → exactly one suit appears twice.
+**Favorable:** All 4 suits present in 5 cards → exactly one suit appears twice.
 
-| Step                                         | Count                                    |     |
-| -------------------------------------------- | ---------------------------------------- | --- |
-| Choose which suit appears twice              | $$(41)=4\binom{4}{1} = 4 (14​)=4$$       |     |
-| Choose 2 cards from that suit                | $$(132)=78\binom{13}{2} = 78 (213​)=78$$ |     |
-| Choose 1 card from each of the other 3 suits | $$133=2,19713^3 = 2{,}197 133=2,197$$    |     |
+|Step|Calculation|Count|
+|---|---|---|
+|Choose which suit appears twice|$\binom{4}{1}$|4|
+|Choose 2 cards from that suit|$\binom{13}{2}$|78|
+|Choose 1 card from each other suit|$13^3$|2,197|
 
-Favorable=4×78×2,197=685,464\text{Favorable} = 4 \times 78 \times 2{,}197 = 685{,}464Favorable=4×78×2,197=685,464 P=685,4642,598,960≈0.2637P = \frac{685{,}464}{2{,}598{,}960} \approx \mathbf{0.2637}P=2,598,960685,464​≈0.2637
+$$\text{Favorable} = 4 \times 78 \times 2{,}197 = 685{,}464$$
+
+$$P = \frac{685{,}464}{2{,}598{,}960} \approx \mathbf{0.2637}$$
 
 About 26.4% of 5-card hands span all four suits.
 
@@ -231,17 +247,21 @@ About 26.4% of 5-card hands span all four suits.
 
 ## 9 · The birthday problem — preview
 
-> [!NOTE] Classic question > How many people do you need in a room for P(two share a birthday)>50%P(\text{two share a birthday}) > 50\% P(two share a birthday)>50%?
+> [!QUESTION] How many people do you need in a room for $P(\text{two share a birthday}) > 50%$?
 
 The answer: **only 23 people.** Most people guess ~180. Here's why.
 
 **Strategy — count the complement:**
 
-P(at least one shared birthday)=1−P(all birthdays different)P(\text{at least one shared birthday}) = 1 - P(\text{all birthdays different})P(at least one shared birthday)=1−P(all birthdays different) P(all different)=365365×364365×363365×⋯×365−n+1365P(\text{all different}) = \frac{365}{365} \times \frac{364}{365} \times \frac{363}{365} \times \cdots \times \frac{365 - n + 1}{365}P(all different)=365365​×365364​×365363​×⋯×365365−n+1​
+$$P(\text{at least one shared birthday}) = 1 - P(\text{all birthdays different})$$
 
-With n=23n = 23 n=23: P(all different)≈0.4927P(\text{all different}) \approx 0.4927 P(all different)≈0.4927, so P(shared)≈0.5073P(\text{shared}) \approx \mathbf{0.5073} P(shared)≈0.5073.
+$$P(\text{all different}) = \frac{365}{365} \times \frac{364}{365} \times \frac{363}{365} \times \cdots \times \frac{365 - n + 1}{365}$$
 
-|People nn n|P(shared birthday)|
+With $n = 23$: $P(\text{all different}) \approx 0.4927$, so:
+
+$$P(\text{shared}) \approx \mathbf{0.5073}$$
+
+|People $n$|$P(\text{shared birthday})$|
 |---|---|
 |10|11.7%|
 |23|**50.7%** ← crosses 50%|
@@ -249,19 +269,19 @@ With n=23n = 23 n=23: P(all different)≈0.4927P(\text{all different}) \approx 
 |57|99.0%|
 |70|99.9%|
 
-> [!TIP] Why is it so low? > With 23 people, there are (232)=253\binom{23}{2} = 253 (223​)=253 pairs. Each pair has a 1/365 chance of sharing a birthday. 253 "lottery tickets", each with ~0.27% odds — it adds up fast. (Formalised in Lecture 3.)
+> [!TIP] Why is it so low? With 23 people there are $\binom{23}{2} = 253$ pairs. Each pair has a $\tfrac{1}{365}$ chance of sharing. 253 "lottery tickets" at ~0.27% odds each — it adds up fast. (Formalised in Lecture 3.)
 
 ---
 
-## 10 · Common pitfalls & exam tips
+## 10 · Gotchas & misconceptions
 
-> [!WARNING] Pitfall 1 — Forgetting the "equally likely" assumption > The naive formula P(A)=∣A∣/∣S∣P(A) = |A|/|S| P(A)=∣A∣/∣S∣ only works when outcomes are equally likely. Always check this before applying it.
+> [!WARNING] Pitfall 1 — Forgetting the "equally likely" assumption The naive formula $P(A) = |A|/|S|$ only works when outcomes are equally likely. Always check this before applying it.
 
 > [!WARNING] Pitfall 2 — Confusing permutations and combinations Ask: "Would switching the order create a different outcome?" If yes → permutation. If no → combination.
 
 > [!WARNING] Pitfall 3 — Double-counting When counting favorable outcomes, make sure you're not counting the same outcome twice. The "overcounting then dividing" technique (as in the combination formula) is the systematic fix.
 
-> [!TIP] Exam strategy Always state your sample space explicitly. Blitzstein rewards clear reasoning over just a final answer.
+> [!TIP] Exam strategy Always state your sample space explicitly. Blitzstein rewards clear reasoning over a bare final answer.
 
 ---
 
@@ -269,11 +289,11 @@ With n=23n = 23 n=23: P(all different)≈0.4927P(\text{all different}) \approx 
 
 |Name|Formula|When to use|
 |---|---|---|
-|Multiplication rule|n1×n2×⋯×nkn_1 \times n_2 \times \cdots \times n_k n1​×n2​×⋯×nk​|Sequential independent choices|
-|Permutations (all)|n!n! n!|Arrange all nn n objects in order|
-|Permutations (k of n)|n!(n−k)!\frac{n!}{(n-k)!} (n−k)!n!​|Order matters, no replacement|
-|Combinations|(nk)=n!k!(n−k)!\binom{n}{k} = \frac{n!}{k!(n-k)!} (kn​)=k!(n−k)!n!​|Order doesn't matter, no replacement|
-|Naive probability|$P(A) = \frac{|A|
+|Multiplication rule|$n_1 \times n_2 \times \cdots \times n_k$|Sequential independent choices|
+|Permutations — all|$n!$|Arrange all $n$ objects in order|
+|Permutations — k of n|$n! \mathbin{/} (n-k)!$|Order matters, no replacement|
+|Combinations|$n! \mathbin{/} (k!(n-k)!)$|Order doesn't matter, no replacement|
+|Naive probability|$P(A) = \lvert A \rvert / \lvert S \rvert$|Equally likely outcomes only|
 
 ---
 
@@ -281,21 +301,27 @@ With n=23n = 23 n=23: P(all different)≈0.4927P(\text{all different}) \approx 
 
 Try these before looking at solutions.
 
-**P1 (Easy).** A lock has a 3-digit code (digits 0–9, repetition allowed). How many possible codes are there? What if repetition is not allowed?
+**P1 (Easy).** A lock has a 3-digit code (digits 0–9, repetition allowed). How many codes are there? What if repetition is not allowed?
 
-> [!EXAMPLE]- Solution P1 **With repetition:** 103=100010^3 = 1000 103=1000 **Without repetition:** 10×9×8=72010 \times 9 \times 8 = 720 10×9×8=720
-
----
-
-**P2 (Medium).** A group of 5 men and 5 women sit randomly in a row of 10 chairs. What is P(men and women alternate)P(\text{men and women alternate}) P(men and women alternate)?
-
-> [!EXAMPLE]- Solution P2 > Alternating means either MWMWMWMWMW or WMWMWMWMWM → 2 patterns. > Within each pattern: 5!5! 5! ways to arrange the men, 5!5! 5! ways for the women. > Favorable = 2×5!×5!2 \times 5! \times 5! 2×5!×5! > Total = 10!10! 10! > $$P = \frac{2 \times 5! \times 5!}{10!} = \frac{2 \times 120 \times 120}{3{,}628{,}800} = \frac{28{,}800}{3{,}628{,}800} \approx \mathbf{0.00794}$$ > Less than 1% — alternating seating is rare by chance!
+> [!EXAMPLE]- Solution P1 **With repetition:** $10^3 = 1000$ **Without repetition:** $10 \times 9 \times 8 = 720$
 
 ---
 
-**P3 (Hard).** How many ways can you distribute 12 identical cookies among 4 kids such that each kid gets at least 1 cookie?
+**P2 (Medium).** 5 men and 5 women sit randomly in a row of 10 chairs. What is $P(\text{men and women alternate})$?
 
-> [!EXAMPLE]- Solution P3 **Stars and bars with a constraint.**> First, give each kid 1 cookie (satisfying the "at least 1" condition). Now distribute the remaining 12−4=812 - 4 = 8 12−4=8 cookies freely among 4 kids, with no restriction. > This is "with replacement, order doesn't matter": (8+4−14−1)=(113)=165\binom{8 + 4 - 1}{4 - 1} = \binom{11}{3} = \mathbf{165} (4−18+4−1​)=(311​)=165
+> [!EXAMPLE]- Solution P2 Alternating patterns: MWMWMWMWMW or WMWMWMWMWM → 2 patterns. Within each: $5!$ ways to arrange the men, $5!$ for the women.
+> 
+> $$P = \frac{2 \times 5! \times 5!}{10!} = \frac{2 \times 120 \times 120}{3{,}628{,}800} \approx \mathbf{0.00794}$$
+> 
+> Less than 1% — alternating seating is rare by chance!
+
+---
+
+**P3 (Hard).** How many ways can you distribute 12 identical cookies among 4 kids such that each kid gets at least 1?
+
+> [!EXAMPLE]- Solution P3 First give each kid 1 cookie → 8 remaining to distribute freely. This is stars and bars (with replacement, order doesn't matter):
+> 
+> $$\binom{8 + 4 - 1}{4 - 1} = \binom{11}{3} = \mathbf{165}$$
 
 ---
 
@@ -303,46 +329,50 @@ Try these before looking at solutions.
 
 ```
 Counting (L1-2)
-    |
-    +---> Conditional Probability (L3-5) — need counting to compute P(A∩B)/P(B)
-    |
-    +---> Binomial Distribution (L7) — C(n,k) is the binomial coefficient
-    |
-    +---> Birthday Problem full solution (L3) — complement counting
-    |
-    +---> Hypergeometric Distribution (L7) — sampling without replacement
+    │
+    ├──► Conditional Probability (L3-5)
+    │    Need counting to compute P(A∩B) / P(B)
+    │
+    ├──► Binomial Distribution (L7)
+    │    C(n,k) is the binomial coefficient
+    │
+    ├──► Birthday Problem full solution (L3)
+    │    Complement counting
+    │
+    └──► Hypergeometric Distribution (L7)
+         Sampling without replacement
 ```
 
 ---
 
 ## 14 · Flashcards
 
-**Q:** What is the naive definition of probability and when does it apply? **A:** P(A)=∣A∣/∣S∣P(A) = |A|/|S| P(A)=∣A∣/∣S∣. Only when all outcomes are equally likely.
+**Q:** What is the naive definition of probability and when does it apply? **A:** $P(A) = |A|/|S|$. Only when all outcomes are equally likely.
 
 ---
 
-**Q:** What is the difference between P(n,k)P(n,k) P(n,k) and (nk)\binom{n}{k} (kn​)? **A:** P(n,k)P(n,k) P(n,k) counts ordered selections (order matters). (nk)\binom{n}{k} (kn​) counts unordered subsets (order doesn't matter). (nk)=P(n,k)/k!\binom{n}{k} = P(n,k)/k! (kn​)=P(n,k)/k!.
+**Q:** What is the difference between $P(n,k)$ and $\binom{n}{k}$? **A:** $P(n,k)$ counts ordered selections. $\binom{n}{k}$ counts unordered subsets. Relationship: $\binom{n}{k} = P(n,k)/k!$
 
 ---
 
-**Q:** How do you count arrangements where two specific items must be adjacent? **A:** Glue them into a single block. Count arrangements of (n−1)(n-1) (n−1) objects, then multiply by 2!2! 2! for the internal swap.
+**Q:** How do you count arrangements where two specific items must be adjacent? **A:** Glue them into a single block. Count arrangements of $(n-1)$ objects, then multiply by $2!$ for the internal swap.
 
 ---
 
-**Q:** Why does (nk)=(nn−k)\binom{n}{k} = \binom{n}{n-k} (kn​)=(n−kn​)? **A:** Choosing kk k items to include is equivalent to choosing n−kn-k n−k items to exclude.
+**Q:** Why does $\binom{n}{k} = \binom{n}{n-k}$? **A:** Choosing $k$ items to include is equivalent to choosing $n-k$ items to exclude.
 
 ---
 
-**Q:** With 23 people, what is approximately P(two share a birthday)P(\text{two share a birthday}) P(two share a birthday)? **A:** About 50.7%. Use complement: 1−∏i=022365−i3651 - \prod_{i=0}^{22} \frac{365-i}{365} 1−∏i=022​365365−i​.
+**Q:** With 23 people, what is approximately $P(\text{two share a birthday})$? **A:** About 50.7%. Use complement: $1 - \prod_{i=0}^{22} \dfrac{365-i}{365}$
 
 ---
 
 ## 📚 References & resources
 
-- **Textbook:** Blitzstein & Hwang, _Introduction to Probability_ (2nd ed.) — Chapter 1. Free online: [http://probabilitybook.net](http://probabilitybook.net)
-- **YouTube:** Stats 110 Playlist — Lectures 1 & 2: [https://www.youtube.com/watch?v=KbB0FoqQLps](https://www.youtube.com/watch?v=KbB0FoqQLps)
-- **edX course:** [https://www.edx.org/course/introduction-to-probability-0](https://www.edx.org/course/introduction-to-probability-0)
-- **Practice problems:** [http://stat110.net](http://stat110.net) (Strategic Practice sets 1 & 2)
+- **Textbook:** Blitzstein & Hwang, _Introduction to Probability_ (2nd ed.) — Chapter 1. Free: http://probabilitybook.net
+- **YouTube:** Stats 110 Playlist — Lectures 1 & 2: https://www.youtube.com/watch?v=KbB0FoqQLps
+- **edX course:** https://www.edx.org/course/introduction-to-probability-0
+- **Practice problems:** http://stat110.net — Strategic Practice sets 1 & 2
 
 ---
 
@@ -351,9 +381,9 @@ Counting (L1-2)
 - [[Stats110_Lecture_3 — Birthday Problem, Axioms of Probability]]
 - [[Conditional Probability]]
 - [[Binomial Distribution]]
+- [[Hypergeometric Distribution]]
 
 ## 🔗 Related notes
 
 - [[Stats 110 MOC]]
 - [[Lecture 3 — Birthday Problem & Axioms]]
-- [[Hypergeometric Distribution]]
