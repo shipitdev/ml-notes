@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics- 110 (Harvard)/Axioms & Inclusion-Exclusion.md",
+                "file": "Statistics- 110 (Harvard)/L1,2- Probability & Counting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Axioms & Inclusion-Exclusion"
+              "title": "L1,2- Probability & Counting"
+            }
+          },
+          {
+            "id": "cb03a7166e4e3643",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics- 110 (Harvard)/L3- Birthday Problem, Axioms & Inclusion-Exclusion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "L3- Birthday Problem, Axioms & Inclusion-Exclusion"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -224,17 +238,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7e378a0793eba0e",
+  "active": "cb03a7166e4e3643",
   "lastOpenFiles": [
-    "Review.md",
+    "Statistics- 110 (Harvard)/L1,2- Probability & Counting.md",
+    "Statistics- 110 (Harvard)/L3- Birthday Problem, Axioms & Inclusion-Exclusion.md",
     "Statistics- 110 (Harvard)/Stars & Bars - Complete guide.md",
-    "Untitled.base",
     "Statistics- 110 (Harvard)/Axioms & Inclusion-Exclusion.md",
+    "Untitled",
+    "Review.md",
+    "Untitled.base",
     "Machine-Learning/Logistic Regression - How it works.md",
     "Feature-Engineering/FE - Imputations (MCAR,MNAR + 5 imputation methods).md",
     "ReadMe.md",
     "Machine-Learning/Decision Trees - Information Gain.md",
-    "Statistics- 110 (Harvard)/Stats 110 -  L1,2- Probability & Counting.md",
     "Statistics- 110 (Harvard)",
     "Feature-Engineering/FE- Imputations (3 distribution-preserving techniques).md",
     "EDA/EDA on Numerical Data -Key learnings.md",
@@ -269,7 +285,6 @@
     "old/media/Graph of Linear Regression.png",
     "old/media/Gradient Descent.png",
     "old/media/Constant variange.png",
-    "old/media",
     "Pasted image 20260420161631.png"
   ]
 }
