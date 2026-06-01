@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "Stats 110 -  L1,2- Probability & Counting"
             }
+          },
+          {
+            "id": "e600cc8cd4ca396f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics- 110 (Harvard)/Stats 110 -  L1,2- Probability & Counting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stats 110 -  L1,2- Probability & Counting"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -266,10 +280,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62c9acb2a982b415",
+  "active": "e600cc8cd4ca396f",
   "lastOpenFiles": [
-    "Review.md",
+    "Statistics- 110 (Harvard)/Stars & Bars - Complete guide.md",
     "Statistics- 110 (Harvard)/Stats 110 -  L1,2- Probability & Counting.md",
+    "Review.md",
     "Statistics- 110 (Harvard)",
     "Feature-Engineering/FE - Imputations (MCAR,MNAR + 5 imputation methods).md",
     "Feature-Engineering/FE- Imputations (3 distribution-preserving techniques).md",
@@ -298,7 +313,6 @@
     "Untitled.base",
     "Untitled.canvas",
     "EDA/EDA - histogram pattern recognition.md",
-    "EDA/EDA - Pipeline.md",
     "EDA",
     "Untitled 14-22-22-734",
     "Untitled 13-37-58-687",

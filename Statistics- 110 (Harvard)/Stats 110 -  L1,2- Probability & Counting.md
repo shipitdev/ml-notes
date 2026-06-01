@@ -154,88 +154,94 @@ The last identity is elegant: choosing $k$ things to include is the same as choo
 
 ---
 
-## 7 · The Sampling Table 📊
+## 7 · The sampling table 📊
 
-> [!INFO] Memorise this — it categorises every counting problem Ask two questions: (1) Does order matter? (2) With or without replacement?
+The two questions to ask on every counting problem:
 
-||**Order matters**|**Order doesn't matter**|
-|---|---|---|
-|**With replacement**|$n^k$|$\binom{n+k-1}{k}$|
-|**Without replacement**|$\dfrac{n!}{(n-k)!}$|$\dbinom{n}{k}$|
+1. **Does order matter?**
+2. **With or without replacement?**
 
-> [!NOTE] The top-right cell "With replacement, order doesn't matter" (stars and bars) appears rarely in the first half of Stats 110. The other three cells are your daily workhorses.
+Your answers put you in one of four cells:
+
+**With replacement:**
+
+| Order matters | Order doesn't matter                    |
+| ------------- | --------------------------------------- |
+| $$nkn^k nk$$  | $$(n+k−1k)\dbinom{n+k-1}{k} (kn+k−1​)$$ |
+
+**Without replacement:**
+
+| Order matters                            | Order doesn't matter        |
+| ---------------------------------------- | --------------------------- |
+| $$n!(n−k)!\dfrac{n!}{(n-k)!} (n−k)!n!$$​ | $$(nk)\dbinom{n}{k} (kn​)$$ |
+
+> [!NOTE] The stars-and-bars cell > "With replacement, order doesn't matter" uses the stars-and-bars formula (n+k−1k)\binom{n+k-1}{k} (kn+k−1​). It appears less often in the first half of Stats 110. The other three cells are your daily workhorses.
 
 ---
 
-## 8 · Worked Examples
+## 8 · Worked examples
 
 ### 🟢 Easy — 3-letter words
 
-> How many 3-letter "words" can be formed from ${A, B, C, D, E}$?
+> How many 3-letter "words" can be formed from {A, B, C, D, E}?
 
-**(a) With replacement** (letters can repeat):  
-Each slot has 5 choices, independently → $5^3 = \mathbf{125}$
+**(a) With replacement** (letters can repeat): Each slot has 5 choices, independently → $$ 53=1255^3 = \mathbf{125} 53=125$$
 
-**(b) Without replacement** (no letter repeats):  
-$5 \times 4 \times 3 = \mathbf{60}$ — order matters, no repeats → $P(5,3)$
+**(b) Without replacement** (no letter repeats): $$5×4×3=605 \times 4 \times 3 = \mathbf{60} 5×4×3=60 — order matters, no repeats → P(5,3)P(5,3) P(5,3)$$ 
 
 ---
 
-### 🟡 Medium — Adjacent seating
+### 🟡 Medium — adjacent seating
 
-> 10 students sit randomly in a row of 10 chairs. What is $P(\text{Alice and Bob sit next to each other})$?
+> 10 students sit randomly in a row of 10 chairs. What is P(Alice and Bob sit next to each other)P(\text{Alice and Bob sit next to each other}) P(Alice and Bob sit next to each other)?
 
-**Total arrangements:** $10!$
+**Total arrangements:** 10!10! 10!
 
 **Favorable:** Treat Alice+Bob as a single "super-person":
 
-- 9 objects to arrange: $9!$ ways
-- Alice and Bob can swap within the block: $2!$ ways
-- Favorable = $9! \times 2$
+- 9 objects to arrange: 9! ways
+- Alice and Bob can swap within the block: 2! ways
+- Favorable = 9!×29! \times 2 9!×2
 
-$$P = \frac{9! \times 2}{10!} = \frac{2}{10} = \mathbf{\frac{1}{5}}$$
+$$ P=9!×210!=210=15P = \frac{9! \times 2}{10!} = \frac{2}{10} = \mathbf{\frac{1}{5}}P=10!9!×2​=102​=51 $$​
 
 > [!TIP] The "gluing" trick Whenever two items must be adjacent, treat them as a single block, count arrangements of blocks, then multiply by internal arrangements of the block. Works repeatedly throughout the course.
 
 ---
 
-### 🔴 Hard — Full-suit poker hand
+### 🔴 Hard — full-suit poker hand
 
-> From a 52-card deck, what is $P(\text{a 5-card hand contains all 4 suits})$?
+> From a 52-card deck, what is P(a 5-card hand contains all 4 suits)P(\text{a 5-card hand contains all 4 suits}) P(a 5-card hand contains all 4 suits)?
 
-**Total 5-card hands:** $\binom{52}{5} = 2{,}598{,}960$
+**Total 5-card hands:** $$ (525)=2,598,960\binom{52}{5} = 2{,}598{,}960 (552​)=2,598,960$$
 
 **Favorable:** All 4 suits must appear in 5 cards → exactly one suit appears twice.
 
-|Step|Count|
-|---|---|
-|Choose which suit appears twice|$\binom{4}{1} = 4$|
-|Choose 2 cards from that suit|$\binom{13}{2} = 78$|
-|Choose 1 card from each of the other 3 suits|$13^3 = 2{,}197$|
+| Step                                         | Count                                    |     |
+| -------------------------------------------- | ---------------------------------------- | --- |
+| Choose which suit appears twice              | $$(41)=4\binom{4}{1} = 4 (14​)=4$$       |     |
+| Choose 2 cards from that suit                | $$(132)=78\binom{13}{2} = 78 (213​)=78$$ |     |
+| Choose 1 card from each of the other 3 suits | $$133=2,19713^3 = 2{,}197 133=2,197$$    |     |
 
-$$\text{Favorable} = 4 \times 78 \times 2{,}197 = 685{,}464$$
-
-$$P = \frac{685{,}464}{2{,}598{,}960} \approx \mathbf{0.2637}$$
+Favorable=4×78×2,197=685,464\text{Favorable} = 4 \times 78 \times 2{,}197 = 685{,}464Favorable=4×78×2,197=685,464 P=685,4642,598,960≈0.2637P = \frac{685{,}464}{2{,}598{,}960} \approx \mathbf{0.2637}P=2,598,960685,464​≈0.2637
 
 About 26.4% of 5-card hands span all four suits.
 
 ---
 
-## 9 · The Birthday Problem — Preview
+## 9 · The birthday problem — preview
 
-> [!QUESTION] How many people do you need in a room for P(two share a birthday) > 50%?
+> [!NOTE] Classic question > How many people do you need in a room for P(two share a birthday)>50%P(\text{two share a birthday}) > 50\% P(two share a birthday)>50%?
 
-The answer: **only 23 people.** Most people guess ~180. Let's see why.
+The answer: **only 23 people.** Most people guess ~180. Here's why.
 
 **Strategy — count the complement:**
 
-$$P(\text{at least one shared birthday}) = 1 - P(\text{all birthdays different})$$
+P(at least one shared birthday)=1−P(all birthdays different)P(\text{at least one shared birthday}) = 1 - P(\text{all birthdays different})P(at least one shared birthday)=1−P(all birthdays different) P(all different)=365365×364365×363365×⋯×365−n+1365P(\text{all different}) = \frac{365}{365} \times \frac{364}{365} \times \frac{363}{365} \times \cdots \times \frac{365 - n + 1}{365}P(all different)=365365​×365364​×365363​×⋯×365365−n+1​
 
-$$P(\text{all different}) = \frac{365}{365} \times \frac{364}{365} \times \frac{363}{365} \times \cdots \times \frac{365 - n + 1}{365}$$
+With n=23n = 23 n=23: P(all different)≈0.4927P(\text{all different}) \approx 0.4927 P(all different)≈0.4927, so P(shared)≈0.5073P(\text{shared}) \approx \mathbf{0.5073} P(shared)≈0.5073.
 
-With $n = 23$: $P(\text{all different}) \approx 0.4927$, so $P(\text{shared}) \approx \mathbf{0.5073}$.
-
-|People $n$|P(shared birthday)|
+|People nn n|P(shared birthday)|
 |---|---|
 |10|11.7%|
 |23|**50.7%** ← crosses 50%|
@@ -243,13 +249,13 @@ With $n = 23$: $P(\text{all different}) \approx 0.4927$, so $P(\text{shared}) \a
 |57|99.0%|
 |70|99.9%|
 
-> [!TIP] Why is it so low? With 23 people, there are $\binom{23}{2} = 253$ pairs. Each pair has a 1/365 chance of sharing a birthday. 253 "lottery tickets", each with ~0.27% odds — it adds up fast. (We'll formalise this in Lecture 3.)
+> [!TIP] Why is it so low? > With 23 people, there are (232)=253\binom{23}{2} = 253 (223​)=253 pairs. Each pair has a 1/365 chance of sharing a birthday. 253 "lottery tickets", each with ~0.27% odds — it adds up fast. (Formalised in Lecture 3.)
 
 ---
 
-## 10 · Common Pitfalls & Exam Tips
+## 10 · Common pitfalls & exam tips
 
-> [!WARNING] Pitfall 1 — Forgetting the "equally likely" assumption The naive formula $P(A) = |A|/|S|$ only works when outcomes are equally likely. Always check this before applying it.
+> [!WARNING] Pitfall 1 — Forgetting the "equally likely" assumption > The naive formula P(A)=∣A∣/∣S∣P(A) = |A|/|S| P(A)=∣A∣/∣S∣ only works when outcomes are equally likely. Always check this before applying it.
 
 > [!WARNING] Pitfall 2 — Confusing permutations and combinations Ask: "Would switching the order create a different outcome?" If yes → permutation. If no → combination.
 
@@ -259,102 +265,95 @@ With $n = 23$: $P(\text{all different}) \approx 0.4927$, so $P(\text{shared}) \a
 
 ---
 
-## 11 · Key Formulas Summary
+## 11 · Key formulas summary
 
 |Name|Formula|When to use|
 |---|---|---|
-|Multiplication rule|$n_1 \times n_2 \times \cdots \times n_k$|Sequential independent choices|
-|Permutations (all)|$n!$|Arrange all $n$ objects in order|
-|Permutations (k of n)|$\frac{n!}{(n-k)!}$|Order matters, no replacement|
-|Combinations|$\binom{n}{k} = \frac{n!}{k!(n-k)!}$|Order doesn't matter, no replacement|
-|Naive probability|$P(A) = \frac{\|A\|}{\|S\|}$|Equally likely outcomes only|
+|Multiplication rule|n1×n2×⋯×nkn_1 \times n_2 \times \cdots \times n_k n1​×n2​×⋯×nk​|Sequential independent choices|
+|Permutations (all)|n!n! n!|Arrange all nn n objects in order|
+|Permutations (k of n)|n!(n−k)!\frac{n!}{(n-k)!} (n−k)!n!​|Order matters, no replacement|
+|Combinations|(nk)=n!k!(n−k)!\binom{n}{k} = \frac{n!}{k!(n-k)!} (kn​)=k!(n−k)!n!​|Order doesn't matter, no replacement|
+|Naive probability|$P(A) = \frac{|A|
 
 ---
 
-## 12 · Practice Problems
+## 12 · Practice problems
 
-Try these before looking at solutions. Cover the answer and work it yourself.
+Try these before looking at solutions.
 
 **P1 (Easy).** A lock has a 3-digit code (digits 0–9, repetition allowed). How many possible codes are there? What if repetition is not allowed?
 
-> [!EXAMPLE]- Solution P1 **With repetition:** $10^3 = 1000$  
-> **Without repetition:** $10 \times 9 \times 8 = 720$
+> [!EXAMPLE]- Solution P1 **With repetition:** 103=100010^3 = 1000 103=1000 **Without repetition:** 10×9×8=72010 \times 9 \times 8 = 720 10×9×8=720
 
 ---
 
-**P2 (Medium).** A group of 5 men and 5 women sit randomly in a row of 10 chairs. What is $P(\text{men and women alternate})$?
+**P2 (Medium).** A group of 5 men and 5 women sit randomly in a row of 10 chairs. What is P(men and women alternate)P(\text{men and women alternate}) P(men and women alternate)?
 
-> [!EXAMPLE]- Solution P2 Alternating means either MWMWMWMWMW or WMWMWMWMWM → 2 patterns.  
-> Within each pattern: $5!$ ways to arrange the men, $5!$ ways for the women.  
-> Favorable = $2 \times 5! \times 5!$  
-> Total = $10!$  
-> $$P = \frac{2 \times 5! \times 5!}{10!} = \frac{2 \times 120 \times 120}{3{,}628{,}800} = \frac{28{,}800}{3{,}628{,}800} \approx \mathbf{0.00794}$$  
-> Less than 1% — alternating seating is rare by chance!
+> [!EXAMPLE]- Solution P2 > Alternating means either MWMWMWMWMW or WMWMWMWMWM → 2 patterns. > Within each pattern: 5!5! 5! ways to arrange the men, 5!5! 5! ways for the women. > Favorable = 2×5!×5!2 \times 5! \times 5! 2×5!×5! > Total = 10!10! 10! > $$P = \frac{2 \times 5! \times 5!}{10!} = \frac{2 \times 120 \times 120}{3{,}628{,}800} = \frac{28{,}800}{3{,}628{,}800} \approx \mathbf{0.00794}$$ > Less than 1% — alternating seating is rare by chance!
 
 ---
 
 **P3 (Hard).** How many ways can you distribute 12 identical cookies among 4 kids such that each kid gets at least 1 cookie?
 
-> [!EXAMPLE]- Solution P3 **Stars and bars with a constraint.**  
-> First, give each kid 1 cookie (satisfying the "at least 1" condition). Now distribute the remaining $12 - 4 = 8$ cookies freely among 4 kids, with no restriction.  
-> This is "with replacement, order doesn't matter": $\binom{8 + 4 - 1}{4 - 1} = \binom{11}{3} = \mathbf{165}$
+> [!EXAMPLE]- Solution P3 **Stars and bars with a constraint.**> First, give each kid 1 cookie (satisfying the "at least 1" condition). Now distribute the remaining 12−4=812 - 4 = 8 12−4=8 cookies freely among 4 kids, with no restriction. > This is "with replacement, order doesn't matter": (8+4−14−1)=(113)=165\binom{8 + 4 - 1}{4 - 1} = \binom{11}{3} = \mathbf{165} (4−18+4−1​)=(311​)=165
 
 ---
 
-## 13 · Connections to Later Topics
+## 13 · Connections to later topics
 
 ```
 Counting (L1-2)
-    │
-    ├──► Conditional Probability (L3-5) — need counting to compute P(A∩B)/P(B)
-    │
-    ├──► Binomial Distribution (L7) — C(n,k) is the binomial coefficient
-    │
-    ├──► Birthday Problem full solution (L3) — complement counting
-    │
-    └──► Hypergeometric Distribution (L7) — sampling without replacement
+    |
+    +---> Conditional Probability (L3-5) — need counting to compute P(A∩B)/P(B)
+    |
+    +---> Binomial Distribution (L7) — C(n,k) is the binomial coefficient
+    |
+    +---> Birthday Problem full solution (L3) — complement counting
+    |
+    +---> Hypergeometric Distribution (L7) — sampling without replacement
 ```
 
 ---
 
 ## 14 · Flashcards
 
-Use these in Anki or Obsidian's spaced repetition plugin.
-
-**Q:** What is the naive definition of probability and when does it apply?  
-**A:** $P(A) = |A|/|S|$. Only when all outcomes are equally likely.
+**Q:** What is the naive definition of probability and when does it apply? **A:** P(A)=∣A∣/∣S∣P(A) = |A|/|S| P(A)=∣A∣/∣S∣. Only when all outcomes are equally likely.
 
 ---
 
-**Q:** What is the difference between $P(n,k)$ and $\binom{n}{k}$?  
-**A:** $P(n,k)$ counts ordered selections (order matters). $\binom{n}{k}$ counts unordered subsets (order doesn't matter). $\binom{n}{k} = P(n,k)/k!$.
+**Q:** What is the difference between P(n,k)P(n,k) P(n,k) and (nk)\binom{n}{k} (kn​)? **A:** P(n,k)P(n,k) P(n,k) counts ordered selections (order matters). (nk)\binom{n}{k} (kn​) counts unordered subsets (order doesn't matter). (nk)=P(n,k)/k!\binom{n}{k} = P(n,k)/k! (kn​)=P(n,k)/k!.
 
 ---
 
-**Q:** How do you count arrangements where two specific items must be adjacent?  
-**A:** Glue them into a single block. Count arrangements of $(n-1)$ objects, then multiply by $2!$ for the internal swap.
+**Q:** How do you count arrangements where two specific items must be adjacent? **A:** Glue them into a single block. Count arrangements of (n−1)(n-1) (n−1) objects, then multiply by 2!2! 2! for the internal swap.
 
 ---
 
-**Q:** Why does $\binom{n}{k} = \binom{n}{n-k}$?  
-**A:** Choosing $k$ items to include is equivalent to choosing $n-k$ items to exclude.
+**Q:** Why does (nk)=(nn−k)\binom{n}{k} = \binom{n}{n-k} (kn​)=(n−kn​)? **A:** Choosing kk k items to include is equivalent to choosing n−kn-k n−k items to exclude.
 
 ---
 
-**Q:** With 23 people, what is approximately $P(\text{two share a birthday})$?  
-**A:** About 50.7%. Use complement: $1 - \prod_{i=0}^{22} \frac{365-i}{365}$.
+**Q:** With 23 people, what is approximately P(two share a birthday)P(\text{two share a birthday}) P(two share a birthday)? **A:** About 50.7%. Use complement: 1−∏i=022365−i3651 - \prod_{i=0}^{22} \frac{365-i}{365} 1−∏i=022​365365−i​.
 
 ---
 
-## 📚 References & Resources
+## 📚 References & resources
 
-- **Textbook:** Blitzstein & Hwang, _Introduction to Probability_ (2nd ed.) — Chapter 1  
-    Free online: http://probabilitybook.net
-- **YouTube:** Stats 110 Playlist — Lectures 1 & 2  
-    https://www.youtube.com/watch?v=KbB0FoqQLps
-- **edX course:** https://www.edx.org/course/introduction-to-probability-0
-- **Practice problems:** http://stat110.net (Strategic Practice sets 1 & 2)
+- **Textbook:** Blitzstein & Hwang, _Introduction to Probability_ (2nd ed.) — Chapter 1. Free online: [http://probabilitybook.net](http://probabilitybook.net)
+- **YouTube:** Stats 110 Playlist — Lectures 1 & 2: [https://www.youtube.com/watch?v=KbB0FoqQLps](https://www.youtube.com/watch?v=KbB0FoqQLps)
+- **edX course:** [https://www.edx.org/course/introduction-to-probability-0](https://www.edx.org/course/introduction-to-probability-0)
+- **Practice problems:** [http://stat110.net](http://stat110.net) (Strategic Practice sets 1 & 2)
 
 ---
 
-_Next:_ [[Stats110_Lecture_3 — Birthday Problem, Axioms of Probability]]
+## 🔮 What comes next
+
+- [[Stats110_Lecture_3 — Birthday Problem, Axioms of Probability]]
+- [[Conditional Probability]]
+- [[Binomial Distribution]]
+
+## 🔗 Related notes
+
+- [[Stats 110 MOC]]
+- [[Lecture 3 — Birthday Problem & Axioms]]
+- [[Hypergeometric Distribution]]
