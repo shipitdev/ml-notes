@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zero dense",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,8 +117,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -239,7 +238,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1286f5aa473fe336",
+  "active": "62c9acb2a982b415",
   "lastOpenFiles": [
     "Statistics- 110 (Harvard)/L3- Birthday Problem, Axioms & Inclusion-Exclusion.md",
     "Statistics- 110 (Harvard)/L1,2- Probability & Counting.md",
