@@ -95,7 +95,7 @@ causing your model's slopes to swing wildly or cancel each other out.
 
 ### 3.1 Zero-Inflated Dual-Representation Architecture
 
-**The Theory:** A single continuous scale cannot smoothly handle a massive spike of absolute zeros. The zero represents a **structural change in state**, while the numbers represent a **change in physical scale**. These are two separate questions that need two separate columns.
+**The Theory:** A single continuous scale cannot smoothly handle a massive spike of absolute zeros. The zero represents a **structural change in state**, while the numbers represent a **change in physical scale**. These are two separate questions that need two separate columns. This leads to poor predictions because the line gets heavily pulled down by that massive wall of zeros at the start.
 
 **The Project Reality:** Features like `TotalBsmtSF`, `GarageYrBlt`, and the outdoor porch group (`WoodDeckSF`, `OpenPorchSF`, etc.) had massive walls of zeros.
 
