@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDA/EDA on Numerical Data -Key learnings.md",
+                "file": "EDA/CheatSheet - EDA Visualization with Charts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EDA on Numerical Data -Key learnings"
+              "title": "CheatSheet - EDA Visualization with Charts"
             }
           }
         ],
@@ -238,8 +238,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62c9acb2a982b415",
+  "active": "cb03a7166e4e3643",
   "lastOpenFiles": [
+    "EDA/EDA on Numerical Data -Key learnings.md",
     "Statistics- 110 (Harvard)/L3- Birthday Problem, Axioms & Inclusion-Exclusion.md",
     "Statistics- 110 (Harvard)/L1,2- Probability & Counting.md",
     "Statistics- 110 (Harvard)/Stars & Bars - Complete guide.md",
@@ -253,7 +254,6 @@
     "Machine-Learning/Decision Trees - Information Gain.md",
     "Statistics- 110 (Harvard)",
     "Feature-Engineering/FE- Imputations (3 distribution-preserving techniques).md",
-    "EDA/EDA on Numerical Data -Key learnings.md",
     "Feature-Engineering/Count or Frequency Encoding for Categorical Fields.md",
     "Feature-Engineering/How To Handle Missing Values in Categorical Features.md",
     "Feature-Engineering/Why Feature Scale ? Dist Vs Gradient Based Models.md",
