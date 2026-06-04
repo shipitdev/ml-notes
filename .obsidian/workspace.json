@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics- 110 (Harvard)/L3- Birthday Problem, Axioms & Inclusion-Exclusion.md",
+                "file": "EDA/EDA on Numerical Data -Key learnings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L3- Birthday Problem, Axioms & Inclusion-Exclusion"
+              "title": "EDA on Numerical Data -Key learnings"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "1253f6e0d90148a0",
   "lastOpenFiles": [
+    "Statistics- 110 (Harvard)/L3- Birthday Problem, Axioms & Inclusion-Exclusion.md",
     "EDA/EDA - Pipeline.md",
     "Statistics- 110 (Harvard)/L1,2- Probability & Counting.md",
     "Statistics/Statistics Roadmap.md",
@@ -209,7 +210,6 @@
     "Feature-Engineering/How To Handle Missing Values in Categorical Features.md",
     "Feature-Engineering/How To Handle Ordinal Categories(Ordinal Encoding).md",
     "Feature-Engineering/Count or Frequency Encoding for Categorical Fields.md",
-    "Statistics- 110 (Harvard)/L3- Birthday Problem, Axioms & Inclusion-Exclusion.md",
     "Statistics- 110 (Harvard)/Axioms & Inclusion-Exclusion.md",
     "Statistics- 110 (Harvard)/Stars & Bars - Complete guide.md",
     "EDA/EDA on Numerical Data -Key learnings.md",
