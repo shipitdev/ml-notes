@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Bagging Aggregator i.e Random Forest"
             }
+          },
+          {
+            "id": "ace78e66ae9690f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReadMe.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ReadMe"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,11 +223,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e8dee61ca712be0",
+  "active": "ace78e66ae9690f6",
   "lastOpenFiles": [
-    "ReadMe.md",
-    "Machine-Learning/Bagging Aggregator i.e Random Forest.md",
     "Review.md",
+    "ReadMe.md",
+    "Machine-Learning/XGBoost-HyperParameter Optimisation with RandomizedSearchCV.md",
+    "Machine-Learning/Bagging Aggregator i.e Random Forest.md",
     "Feature-Selection/FS - Pearson's Correlation for Multicollinearity.md",
     "Feature-Selection/FS - Variance threshold — strict & quasi-constant filtering.md",
     "Machine-Learning/Performance Metrics — ROC and AUC Curve Intuition.md",
@@ -236,7 +251,6 @@
     "Feature-Engineering/Nominal vs Ordinal (Turning categorical Words into Numbers) Feature Engineering.md",
     "Feature-Engineering/Top-K & One-Hot Encoding for High-Cardinality OR Multi-Categorical Variables.md",
     "EDA/Uni, Bi, Multivariate Exploratory Analysis.md",
-    "Statistics- 110 (Harvard)/L1,2- Probability & *Counting.md",
     "Untitled",
     "Untitled.base",
     "Statistics- 110 (Harvard)",
