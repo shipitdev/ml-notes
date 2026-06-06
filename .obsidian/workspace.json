@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feature-Engineering/How To Handle Missing Values in Categorical Features.md",
+                "file": "EDA/EDA on Numerical Data -Key learnings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How To Handle Missing Values in Categorical Features"
+              "title": "EDA on Numerical Data -Key learnings"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "MultiCollinearity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,6 +197,17 @@
   },
   "active": "1253f6e0d90148a0",
   "lastOpenFiles": [
+    "EDA/CheatSheet - EDA Visualization with Charts.md",
+    "Machine-Learning/T-Test, Paired T-Test, Correlation in Python.md",
+    "Machine-Learning/RULE ( Linear Models ).md",
+    "Machine-Learning/Multiple Linear Regression- Part two.md",
+    "Machine-Learning/Multiple Linear Regression.md",
+    "Feature-Selection/FS - Pearson's Correlation for Multicollinearity.md",
+    "Feature-Engineering/FE-(Key learnings) Handling Discrete Numerical Categories (hidden categories) & More.md",
+    "Feature-Engineering/FE - Ordinal, Frequency, Target-Guided, Mean Encoding.md",
+    "Feature-Engineering/FE - Imputations (Mode, Missing Label, OHE, Top-K).md",
+    "EDA/EDA on Numerical Data -Key learnings.md",
+    "Feature-Engineering/How To Handle Missing Values in Categorical Features.md",
     "Feature-Engineering/Why Feature Scale ? Dist Vs Gradient Based Models.md",
     "Feature-Engineering/Nominal vs Ordinal (Turning categorical Words into Numbers) Feature Engineering.md",
     "Feature-Engineering/Top-K & One-Hot Encoding for High-Cardinality OR Multi-Categorical Variables.md",
@@ -204,27 +216,16 @@
     "Statistics- 110 (Harvard)/Stars & Bars - Complete guidee.md",
     "Statistics- 110 (Harvard)/Axioms & Inclusions-Exclusions.md",
     "Statistics- 110 (Harvard)/L3- Birthday Problem, Axioms & Inclusions-Exclusions.md",
-    "EDA/EDA on Numerical Data -Key learnings.md",
     "EDA/EDA - Pipeline.md",
     "Statistics/Statistics Roadmap.md",
     "Statistics/Mean, Median, Mode.md",
-    "EDA/CheatSheet - EDA Visualization with Charts.md",
-    "Feature-Engineering/FE - Ordinal, Frequency, Target-Guided, Mean Encoding.md",
-    "Feature-Engineering/FE - Imputations (Mode, Missing Label, OHE, Top-K).md",
     "Feature-Engineering/FE- Imputations (3 distribution-preserving techniques).md",
     "Feature-Engineering/FE - Imputations (MCAR,MNAR + 5 imputation methods).md",
-    "Feature-Engineering/How To Handle Missing Values in Categorical Features.md",
     "Feature-Engineering/How To Handle Ordinal Categories(Ordinal Encoding).md",
     "Feature-Engineering/Count or Frequency Encoding for Categorical Fields.md",
     "Untitled",
-    "Review.md",
     "Untitled.base",
-    "Machine-Learning/Logistic Regression - How it works.md",
-    "ReadMe.md",
-    "Machine-Learning/Decision Trees - Information Gain.md",
     "Statistics- 110 (Harvard)",
-    "Machine-Learning/Ridge VS Lasso !When & !Why.md",
-    "Feature-Selection/FS - Variance threshold — strict & quasi-constant filtering.md",
     "Machine-Learning",
     "Machine-Learning",
     "Untitled.canvas",

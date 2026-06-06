@@ -70,10 +70,10 @@ causing your model's slopes to swing wildly or cancel each other out.
 
 **The Project Reality:**
 
-|Redundant Pair|Why it Breaks the Model|
-|:--|:--|
-|`GrLivArea` = `1stFlrSF` + `2ndFlrSF` + `LowQualFinSF`|Sub-components compete for variance weights with their own aggregate|
-|`TotRmsAbvGrd` already counts `BedroomAbvGr` + `KitchenAbvGr`|Room counts are double-represented, confusing slope calculations|
+| Redundant Pair                                                | Why it Breaks the Model                                              |
+| :------------------------------------------------------------ | :------------------------------------------------------------------- |
+| `GrLivArea` = `1stFlrSF` + `2ndFlrSF` + `LowQualFinSF`        | Sub-components compete for variance weights with their own aggregate |
+| `TotRmsAbvGrd` already counts `BedroomAbvGr` + `KitchenAbvGr` | Room counts are double-represented, confusing slope calculations     |
 
 **Resolution:** Keep the master aggregate metrics. Drop the redundant sub-components that sum into them.
 
