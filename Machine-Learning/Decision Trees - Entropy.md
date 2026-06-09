@@ -55,7 +55,6 @@ The logarithmic shape of the entropy equation forms a clean parabolic curve when
 - **The Structural Condition:** The dataset partition is split perfectly down the middle, containing exactly a 50/50 balance of target attributes (e.g., 5 Yes, 5 No).
     
 - **The Equation Proof:**
-    
     $$H(S) = -0.5 \log_2(0.5) - 0.5 \log_2(0.5) = 0.5 + 0.5 = 1.0$$
     
 - **Strategic Verdict:** This represents a highly impure, chaotic split, offering zero mathematical confidence.
