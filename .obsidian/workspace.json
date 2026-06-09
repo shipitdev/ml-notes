@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine-Learning/Bagging Aggregator i.e Random Forest.md",
+                "file": "Machine-Learning/XGBoost-HyperParameter Optimisation with RandomizedSearchCV.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bagging Aggregator i.e Random Forest"
+              "title": "XGBoost-HyperParameter Optimisation with RandomizedSearchCV"
             }
           }
         ],
@@ -225,13 +225,13 @@
   },
   "active": "ace78e66ae9690f6",
   "lastOpenFiles": [
+    "Machine-Learning/Bagging Aggregator i.e Random Forest.md",
     "Machine-Learning/XGBoost-HyperParameter Optimisation with RandomizedSearchCV.md",
     "Machine-Learning/Decision Trees - Gini Impurity ( most efficient ).md",
     "Machine-Learning/Decision Trees - Information Gain.md",
     "Machine-Learning/Decision Trees - Entropy.md",
     "ReadMe.md",
     "Review.md",
-    "Machine-Learning/Bagging Aggregator i.e Random Forest.md",
     "Feature-Selection/FS - Pearson's Correlation for Multicollinearity.md",
     "Feature-Selection/FS - Variance threshold — strict & quasi-constant filtering.md",
     "Machine-Learning/Performance Metrics — ROC and AUC Curve Intuition.md",
