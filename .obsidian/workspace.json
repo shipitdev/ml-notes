@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine-Learning/XGBoost-HyperParameter Optimisation with RandomizedSearchCV.md",
+                "file": "Machine-Learning/Performance Matrices - Confusion Matrix,Accuracy,Recall, F-Beta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XGBoost-HyperParameter Optimisation with RandomizedSearchCV"
+              "title": "Performance Matrices - Confusion Matrix,Accuracy,Recall, F-Beta"
             }
           }
         ],
@@ -225,8 +225,8 @@
   },
   "active": "ace78e66ae9690f6",
   "lastOpenFiles": [
-    "Machine-Learning/Bagging Aggregator i.e Random Forest.md",
     "Machine-Learning/XGBoost-HyperParameter Optimisation with RandomizedSearchCV.md",
+    "Machine-Learning/Bagging Aggregator i.e Random Forest.md",
     "Machine-Learning/Decision Trees - Gini Impurity ( most efficient ).md",
     "Machine-Learning/Decision Trees - Information Gain.md",
     "Machine-Learning/Decision Trees - Entropy.md",
