@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine-Learning/VIF vs PCA - Dimensionality Reduction & Matrix Stability.md",
+                "file": "Machine-Learning/Regression/Linear Regression Indepth Math Intuition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VIF vs PCA - Dimensionality Reduction & Matrix Stability"
+              "title": "Linear Regression Indepth Math Intuition"
             }
           }
         ]
@@ -196,8 +196,9 @@
   },
   "active": "62c9acb2a982b415",
   "lastOpenFiles": [
-    "Machine-Learning/Adaboost- Adaptive Boosting.md",
+    "Machine-Learning/Probability Density Function and CDF in EDA.md",
     "Machine-Learning/VIF vs PCA - Dimensionality Reduction & Matrix Stability.md",
+    "Machine-Learning/Adaboost- Adaptive Boosting.md",
     "Machine-Learning/Regression",
     "Untitled.md",
     "Machine-Learning/Euclidean vs. Manhattan Distance.md",
