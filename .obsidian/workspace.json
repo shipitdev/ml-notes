@@ -11,10 +11,14 @@
             "id": "3dff0fcc930d462a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Under-Sampling - Imbalanced Dataset.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Under-Sampling - Imbalanced Dataset"
             }
           }
         ]
@@ -190,10 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c3f3d648d3b0f83",
+  "active": "3dff0fcc930d462a",
   "lastOpenFiles": [
+    "Under-Sampling - Imbalanced Dataset.md",
     "ReadMe.md",
-    "Untitled.md",
     "Untitled 1",
     "Machine-Learning/distance & similarity",
     "Machine-Learning/Regression/metrics/r2 mae mse rmse.md",
