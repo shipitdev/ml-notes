@@ -190,11 +190,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62c9acb2a982b415",
+  "active": "8c3f3d648d3b0f83",
   "lastOpenFiles": [
+    "Machine-Learning/Bias-Variance & Regularization/PCA.md",
     "Cross-Validation.md",
     "Machine-Learning/Classification/DbScan-Clustering.md",
-    "Machine-Learning/Bias-Variance & Regularization/PCA.md",
     "Machine-Learning/Classification/Naive baeyes Classification.md",
     "Machine-Learning/Classification/K-Means Clustering.md",
     "EDA/OverSampling - Imbalanced Dataset.md",
