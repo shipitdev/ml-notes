@@ -4,109 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "dc045f464afd28f6",
+        "id": "3c4701f66ddb93ef",
         "type": "tabs",
         "children": [
           {
-            "id": "3dff0fcc930d462a",
+            "id": "aba263a5e12f7eb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Under-Sampling - Imbalanced Dataset.md",
+                "file": "Support Vector Machines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Under-Sampling - Imbalanced Dataset"
+              "title": "Support Vector Machines"
             }
           },
           {
-            "id": "7a4fc7b3645bee03",
+            "id": "1ffc08d46d664a2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OverSampling - Imbalanced Dataset.md",
+                "file": "SVM - Part 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OverSampling - Imbalanced Dataset"
+              "title": "SVM - Part 2"
             }
           },
           {
-            "id": "13d74ed79f2855c4",
+            "id": "5bd5919485e3b966",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K-Means Clustering.md",
+                "file": "SVM kernels - Part 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "K-Means Clustering"
-            }
-          },
-          {
-            "id": "91af4ff96e716fc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hierarchical Clustering.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hierarchical Clustering"
-            }
-          },
-          {
-            "id": "b6b1600ebfa77487",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DbScan-Clustering.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DbScan-Clustering"
-            }
-          },
-          {
-            "id": "178732c1c2d744ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Validating Clustering score.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Validating Clustering score"
-            }
-          },
-          {
-            "id": "5bac5efca2ab994f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PCA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PCA"
+              "title": "SVM kernels - Part 3"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -279,15 +223,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5bac5efca2ab994f",
+  "active": "5bd5919485e3b966",
   "lastOpenFiles": [
+    "SVM - Part 2.md",
+    "SVM kernels - Part 3.md",
+    "Support Vector Machines.md",
+    "Under-Sampling - Imbalanced Dataset.md",
+    "OverSampling - Imbalanced Dataset.md",
+    "K-Means Clustering.md",
+    "Hierarchical Clustering.md",
+    "DbScan-Clustering.md",
     "Validating Clustering score.md",
     "PCA.md",
-    "DbScan-Clustering.md",
-    "Hierarchical Clustering.md",
-    "K-Means Clustering.md",
-    "OverSampling - Imbalanced Dataset.md",
-    "Under-Sampling - Imbalanced Dataset.md",
+    "Cross-Validation.md",
+    "Naive baeyes Classification.md",
+    "Naive Baeyes NLP.md",
     "ReadMe.md",
     "Untitled 1",
     "Machine-Learning/distance & similarity",
@@ -306,17 +256,11 @@
     "Machine-Learning/stat-foundation/Z-Score Statistics in Data Science.md",
     "Machine-Learning/stat-foundation",
     "Machine-Learning/Classification/metrics/Performance Metrics — ROC and AUC Curve Intuition.md",
-    "Machine-Learning/distance & similarity/Euclidean vs. Manhattan Distance.md",
-    "Machine-Learning/Regression/Linear Regression Indepth Math Intuition.md",
     "Machine-Learning/Regression/metrics",
     "Machine-Learning/ensemble-methods",
     "Machine-Learning/Classification",
     "Machine-Learning/Bias-Variance & Regularization",
-    "Machine-Learning/stat-foundation/Probability Density Function and CDF in EDA.md",
-    "Machine-Learning/Bias-Variance & Regularization/VIF vs PCA - Dimensionality Reduction & Matrix Stability.md",
     "Machine-Learning/Regression",
-    "Machine-Learning/ensemble-methods/Bagging Aggregator i.e Random Forest.md",
-    "Machine-Learning/Classification/Decision Trees - Gini Impurity ( most efficient ).md",
     "Untitled.canvas",
     "Pasted image 20260420181951.png",
     "Pasted image 20260420181654.png",
