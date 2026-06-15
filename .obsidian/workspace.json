@@ -11,13 +11,32 @@
             "id": "3dff0fcc930d462a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Under-Sampling - Imbalanced Dataset.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Under-Sampling - Imbalanced Dataset"
+            }
+          },
+          {
+            "id": "7a4fc7b3645bee03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OverSampling - Imbalanced Dataset.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OverSampling - Imbalanced Dataset"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,9 +209,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dff0fcc930d462a",
+  "active": "7a4fc7b3645bee03",
   "lastOpenFiles": [
     "Under-Sampling - Imbalanced Dataset.md",
+    "OverSampling - Imbalanced Dataset.md",
     "ReadMe.md",
     "Untitled 1",
     "Machine-Learning/distance & similarity",
