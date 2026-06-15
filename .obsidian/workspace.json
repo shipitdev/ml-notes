@@ -34,9 +34,37 @@
               "icon": "lucide-file",
               "title": "OverSampling - Imbalanced Dataset"
             }
+          },
+          {
+            "id": "13d74ed79f2855c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K-Means Clustering.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "K-Means Clustering"
+            }
+          },
+          {
+            "id": "91af4ff96e716fc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hierarchical Clustering.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hierarchical Clustering"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 603.5
+    "width": 283.5
   },
   "right": {
     "id": "dc417d7fb910aec9",
@@ -209,10 +237,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7a4fc7b3645bee03",
+  "active": "91af4ff96e716fc4",
   "lastOpenFiles": [
-    "Under-Sampling - Imbalanced Dataset.md",
+    "K-Means Clustering.md",
+    "Hierarchical Clustering.md",
     "OverSampling - Imbalanced Dataset.md",
+    "Under-Sampling - Imbalanced Dataset.md",
     "ReadMe.md",
     "Untitled 1",
     "Machine-Learning/distance & similarity",
@@ -245,8 +275,6 @@
     "Machine-Learning/Classification/Decision Trees - Information Gain.md",
     "Machine-Learning/Classification/Decision Trees - Entropy.md",
     "Review.md",
-    "Feature-Selection/FS - Pearson's Correlation for Multicollinearity.md",
-    "Feature-Selection/FS - Variance threshold — strict & quasi-constant filtering.md",
     "Untitled.canvas",
     "Pasted image 20260420181951.png",
     "Pasted image 20260420181654.png",
