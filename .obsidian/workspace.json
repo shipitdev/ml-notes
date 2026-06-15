@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3c4701f66ddb93ef",
+        "id": "34fcb925d87546fa",
         "type": "tabs",
         "children": [
           {
-            "id": "aba263a5e12f7eb6",
+            "id": "bf4dc1d8100bd67b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Support Vector Machines.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Support Vector Machines"
-            }
-          },
-          {
-            "id": "1ffc08d46d664a2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SVM - Part 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SVM - Part 2"
-            }
-          },
-          {
-            "id": "5bd5919485e3b966",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SVM kernels - Part 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SVM kernels - Part 3"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 922.5
   },
   "right": {
     "id": "dc417d7fb910aec9",
@@ -223,21 +190,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5bd5919485e3b966",
+  "active": "62c9acb2a982b415",
   "lastOpenFiles": [
-    "SVM - Part 2.md",
-    "SVM kernels - Part 3.md",
-    "Support Vector Machines.md",
-    "Under-Sampling - Imbalanced Dataset.md",
-    "OverSampling - Imbalanced Dataset.md",
-    "K-Means Clustering.md",
-    "Hierarchical Clustering.md",
-    "DbScan-Clustering.md",
-    "Validating Clustering score.md",
-    "PCA.md",
     "Cross-Validation.md",
-    "Naive baeyes Classification.md",
-    "Naive Baeyes NLP.md",
+    "Machine-Learning/Classification/DbScan-Clustering.md",
+    "Machine-Learning/Bias-Variance & Regularization/PCA.md",
+    "Machine-Learning/Classification/Naive baeyes Classification.md",
+    "Machine-Learning/Classification/K-Means Clustering.md",
+    "EDA/OverSampling - Imbalanced Dataset.md",
+    "SVM kernels - Part 3.md",
+    "SVM - Part 2.md",
+    "Support Vector Machines.md",
+    "EDA/Under-Sampling - Imbalanced Dataset.md",
+    "Machine-Learning/Classification/Hierarchical Clustering.md",
+    "Machine-Learning/Classification/Validating Clustering score.md",
+    "Machine-Learning/Classification/Naive Baeyes NLP.md",
     "ReadMe.md",
     "Untitled 1",
     "Machine-Learning/distance & similarity",
