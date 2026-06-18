@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "34fcb925d87546fa",
+        "id": "8091b215bebdafdf",
         "type": "tabs",
         "children": [
           {
-            "id": "bf4dc1d8100bd67b",
+            "id": "327ec74fffad8fdf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -190,8 +190,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c3f3d648d3b0f83",
+  "active": "327ec74fffad8fdf",
   "lastOpenFiles": [
+    "ReadMe.md",
+    "EDA/Uni, Bi, Multivariate Exploratory Analysis.md",
     "Machine-Learning/Bias-Variance & Regularization/PCA.md",
     "Cross-Validation.md",
     "Machine-Learning/Classification/DbScan-Clustering.md",
@@ -205,7 +207,6 @@
     "Machine-Learning/Classification/Hierarchical Clustering.md",
     "Machine-Learning/Classification/Validating Clustering score.md",
     "Machine-Learning/Classification/Naive Baeyes NLP.md",
-    "ReadMe.md",
     "Untitled 1",
     "Machine-Learning/distance & similarity",
     "Machine-Learning/Regression/metrics/r2 mae mse rmse.md",
@@ -222,7 +223,6 @@
     "Machine-Learning/stat-foundation/T-Test, Paired T-Test, Correlation in Python.md",
     "Machine-Learning/stat-foundation/Z-Score Statistics in Data Science.md",
     "Machine-Learning/stat-foundation",
-    "Machine-Learning/Classification/metrics/Performance Metrics — ROC and AUC Curve Intuition.md",
     "Machine-Learning/Regression/metrics",
     "Machine-Learning/ensemble-methods",
     "Machine-Learning/Classification",
