@@ -147,14 +147,14 @@ Run an **ANOVA (Analysis of Variance) Test**.
 
 ## 📌 5. The Unified Test Selection Cheat Sheet Matrix
 
-|Input Feature 1|Input Feature 2|Group Count|Analytical Objective|Recommended Test|
-|:--|:--|:--|:--|:--|
-|**Categorical**|None|1 column|Check proportion balance against baseline targets.|**One-Sample Proportion Test**|
-|**Categorical**|**Categorical**|2 columns|Audit dependency associations between labels.|**Chi-Square (χ²) Test**|
-|**Continuous**|None|1 column|Check sample average against a reference value.|**One-Sample T-Test**|
-|**Continuous**|**Categorical**|2 distinct labels|Compare averages between two distinct groups.|**Two-Sample Independent T-Test**|
-|**Continuous**|**Continuous**|2 numeric columns|Track linear trends and structural direction.|**Pearson / Spearman Correlation**|
-|**Continuous**|**Categorical**|3 or more distinct labels|Compare averages across three or more groups at once.|**ANOVA (Analysis of Variance)**|
+| Input Feature 1 | Input Feature 2 | Group Count               | Analytical Objective                                  | Recommended Test                   |
+| :-------------- | :-------------- | :------------------------ | :---------------------------------------------------- | :--------------------------------- |
+| **Categorical** | None            | 1 column                  | Check proportion balance against baseline targets.    | **One-Sample Proportion Test**     |
+| **Categorical** | **Categorical** | 2 columns                 | Audit dependency associations between labels.         | **Chi-Square (χ²) Test**           |
+| **Continuous**  | None            | 1 column                  | Check sample average against a reference value.       | **One-Sample T-Test**              |
+| **Continuous**  | **Categorical** | 2 distinct labels         | Compare averages between two distinct groups.         | **Two-Sample Independent T-Test**  |
+| **Continuous**  | **Continuous**  | 2 numeric columns         | Track linear trends and structural direction.         | **Pearson / Spearman Correlation** |
+| **Continuous**  | **Categorical** | 3 or more distinct labels | Compare averages across three or more groups at once. | **ANOVA (Analysis of Variance)**   |
 
 ---
 

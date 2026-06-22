@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SVM kernels - Part 3.md",
+                "file": "Machine-Learning/stat-foundation/T-Test, Chi-Square, ANOVA, Correlation — when to use what.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SVM kernels - Part 3"
+              "title": "T-Test, Chi-Square, ANOVA, Correlation — when to use what"
             }
           }
         ]
@@ -196,6 +196,13 @@
   },
   "active": "327ec74fffad8fdf",
   "lastOpenFiles": [
+    "Statistics/Population vs Statistics.md",
+    "Statistics/Gaussian Distribution.md",
+    "Statistics/Covariance.md",
+    "Statistics/Mean, Median, Mode.md",
+    "Statistics/Random Variable & Its Types.md",
+    "Statistics/P value - The Null Hypothesis test.md",
+    "SVM kernels - Part 3.md",
     "ReadMe.md",
     "EDA/Uni, Bi, Multivariate Exploratory Analysis.md",
     "Machine-Learning/Bias-Variance & Regularization/PCA.md",
@@ -204,7 +211,6 @@
     "Machine-Learning/Classification/Naive baeyes Classification.md",
     "Machine-Learning/Classification/K-Means Clustering.md",
     "EDA/OverSampling - Imbalanced Dataset.md",
-    "SVM kernels - Part 3.md",
     "SVM - Part 2.md",
     "Support Vector Machines.md",
     "EDA/Under-Sampling - Imbalanced Dataset.md",
@@ -218,14 +224,8 @@
     "Machine-Learning/hyper-parameter tuning/GridSearchCV.md",
     "Machine-Learning/ensemble-methods/Adaboost- Adaptive Boosting.md",
     "Machine-Learning/ensemble-methods/XGBoost-HyperParameter Optimisation with RandomizedSearchCV.md",
-    "Machine-Learning/hyper-parameter tuning/XGBoost-HyperParameter Optimisation with RandomizedSearchCV 1.md",
-    "Machine-Learning/Regression/metrics/Confusion Matrix,Accuracy,Recall, F-Beta.md",
     "Machine-Learning/hyper-parameter tuning",
-    "Machine-Learning/Classification/metrics/Confusion Matrix,Accuracy,Recall, F-Beta.md",
-    "Machine-Learning/stat-foundation/T-Test, Chi-Square, ANOVA, Correlation — when to use what.md",
     "Machine-Learning/Classification/metrics",
-    "Machine-Learning/stat-foundation/T-Test, Paired T-Test, Correlation in Python.md",
-    "Machine-Learning/stat-foundation/Z-Score Statistics in Data Science.md",
     "Machine-Learning/stat-foundation",
     "Machine-Learning/Regression/metrics",
     "Machine-Learning/ensemble-methods",
