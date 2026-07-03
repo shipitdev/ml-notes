@@ -36,4 +36,5 @@ The vault is systematically divided into 5 foundational pillars, protecting mode
 ---
 
 ## 📜 License
-This architecture framework repository is open-source software licensed under the **MIT License**.
+
+This architecture framework repository is open-source software licensed under the **MIT License**
