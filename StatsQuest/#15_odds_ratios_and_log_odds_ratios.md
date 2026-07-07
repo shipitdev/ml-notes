@@ -18,6 +18,8 @@ Odds Ratio = Odds(Group 1) / Odds(Group 2)
 - Continuing the example: Odds Ratio = Odds(no exercise) / Odds(exercise) = (1/2) / (1/4) = **2**.
 - Interpretation: the odds of having heart disease are **2 times higher** for non-exercisers compared to exercisers.
 
+![The Odds Ratio 2x2 Contingency Table](./images/odds_ratio_table.svg)
+
 ### 3. What an Odds Ratio of 1 means
 - If Odds Ratio = 1, the two groups have identical odds — the variable (exercise, in this case) makes no difference.
 - Odds Ratio > 1: first group has higher odds. Odds Ratio < 1: first group has lower odds.
@@ -32,6 +34,8 @@ log(Odds Ratio) = log( Odds(Group 1) / Odds(Group 2) )
 - Simple example: log(2) ≈ 0.69, and if we'd flipped the comparison, log(0.5) ≈ -0.69 — perfectly symmetric around 0, exactly like log(odds) was symmetric before.
 - **log(Odds Ratio) = 0** means no difference between groups (Odds Ratio = 1).
 - Positive log(Odds Ratio) = first group has higher odds; negative = lower odds.
+
+![Odds Ratio vs. Log(Odds Ratio) Symmetry](./images/log_odds_ratio_symmetry.svg)
 
 ### 6. Why this matters
 - This is precisely what a **coefficient in Logistic Regression** represents: each coefficient is a **log(Odds Ratio)** comparing how the odds of the outcome change as a predictor changes (e.g., going from "non-exerciser" to "exerciser").

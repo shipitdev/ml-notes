@@ -18,6 +18,9 @@ Beyond just fitting the best line (previous video), we need ways to answer: "How
 ```
 R² = ( SS(mean) - SS(fit) ) / SS(mean)
 ```
+
+![Understanding R2: SS(mean) vs. SS(fit)](./images/ss_mean_vs_ss_fit.svg)
+
 - SS(mean) = total squared error using just the average.
 - SS(fit) = total squared error using our fitted regression line.
 - R² tells us: **what fraction of the variation in y is explained by x** (via our line), compared to just guessing the mean.

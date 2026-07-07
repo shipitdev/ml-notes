@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 180" width="100%" height="100%">
+  <rect width="650" height="180" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Odds Ratio vs. Log(Odds Ratio) Symmetry</text>
+  
+  <!-- Comparison Scale -->
+  <line x1="100" y1="90" x2="550" y2="90" stroke="#9CA3AF" stroke-width="3"/>
+  <circle cx="325" cy="90" r="8" fill="#111827"/>
+  <text x="325" y="115" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Log(OR) = 0.0 (OR = 1.0)</text>
+  <text x="325" y="75" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">No difference between groups</text>
+  
+  <!-- Left Side -->
+  <circle cx="180" cy="90" r="6" fill="#EF4444"/>
+  <line x1="180" y1="90" x2="180" y2="125" stroke="#EF4444" stroke-width="1" stroke-dasharray="2"/>
+  <text x="180" y="140" text-anchor="middle" font-size="11" font-weight="bold" fill="#EF4444">Log(OR) = -0.69</text>
+  <text x="180" y="60" text-anchor="middle" font-size="9" fill="#B91C1C">Odds cut in half (OR = 0.5)</text>
+  
+  <!-- Right Side -->
+  <circle cx="470" cy="90" r="6" fill="#10B981"/>
+  <line x1="470" y1="90" x2="470" y2="125" stroke="#10B981" stroke-width="1" stroke-dasharray="2"/>
+  <text x="470" y="140" text-anchor="middle" font-size="11" font-weight="bold" fill="#059669">Log(OR) = +0.69</text>
+  <text x="470" y="60" text-anchor="middle" font-size="9" fill="#047857">Odds are doubled (OR = 2.0)</text>
+</svg>

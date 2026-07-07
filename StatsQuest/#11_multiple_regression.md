@@ -15,6 +15,8 @@ Multiple Regression is the same least-squares idea as simple Linear Regression, 
 - Exactly like before: for any candidate plane, measure the vertical distance (residual) from each point to the plane, square them, sum them up (SSR), and find the plane that minimizes this sum.
 - Each predictor now gets its own coefficient (slope), plus one overall intercept.
 
+![Multiple Regression 3D Plane Fit](./images/multiple_regression_3d.svg)
+
 ### 3. Same R² formula, same idea
 ```
 R² = ( SS(mean) - SS(fit) ) / SS(mean)
@@ -28,6 +30,8 @@ R² = ( SS(mean) - SS(fit) ) / SS(mean)
 ### 5. The fix: Adjusted R²
 - Adjusted R² **penalizes** the score for every extra predictor added, so it only goes up if a new variable meaningfully improves the fit (more than random chance would predict).
 - Used to fairly compare models that have different numbers of predictors.
+
+![R2 vs. Adjusted R2 Table comparison](./images/r2_adjusted_table.svg)
 
 ### 6. How do we know which predictors are actually useful?
 - Just like simple regression, each predictor's coefficient comes with its own **p-value**, showing whether that specific variable's contribution is statistically significant, or could just be noise.

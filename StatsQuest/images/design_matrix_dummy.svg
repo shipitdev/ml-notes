@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 200" width="100%" height="100%">
+  <rect width="550" height="200" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <text x="275" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" font-weight="bold">Design Matrix (X): Dummy Coding 3 Groups</text>
+  
+  <!-- Column Labels -->
+  <text x="180" y="55" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#4F46E5">Intercept</text>
+  <text x="270" y="55" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#3B82F6">Dummy_B</text>
+  <text x="350" y="55" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#F59E0B">Dummy_C</text>
+  
+  <!-- Brackets -->
+  <path d="M 130 70 L 115 70 L 115 170 L 130 170" fill="none" stroke="#4B5563" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 395 70 L 410 70 L 410 170 L 395 170" fill="none" stroke="#4B5563" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Elements and Row Labels -->
+  <!-- Row 1 -->
+  <text x="180" y="95" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">1</text>
+  <text x="270" y="95" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">0</text>
+  <text x="350" y="95" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">0</text>
+  <text x="425" y="95" font-size="11" fill="#059669" font-weight="bold">&#8592; Diet A (Baseline)</text>
+  
+  <!-- Row 2 -->
+  <text x="180" y="125" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">1</text>
+  <text x="270" y="125" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">1</text>
+  <text x="350" y="125" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">0</text>
+  <text x="425" y="125" font-size="11" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">&#8592; Diet B person</text>
+  
+  <!-- Row 3 -->
+  <text x="180" y="155" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">1</text>
+  <text x="270" y="155" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">0</text>
+  <text x="350" y="155" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">1</text>
+  <text x="425" y="155" font-size="11" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">&#8592; Diet C person</text>
+</svg>

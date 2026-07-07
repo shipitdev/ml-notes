@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 180" width="100%" height="100%">
+  <rect width="650" height="180" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">The Sensitivity vs. Specificity Threshold Trade-off</text>
+  
+  <!-- The Slide Bar -->
+  <rect x="80" y="70" width="490" height="16" rx="8" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1"/>
+  
+  <!-- Fill Indicators -->
+  <path d="M 80 78 L 250 78" stroke="#10B981" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 250 78 L 570 78" stroke="#F59E0B" stroke-width="16" stroke-linecap="round"/>
+  
+  <!-- The Knob -->
+  <circle cx="250" cy="78" r="14" fill="#FFFFFF" stroke="#4B5563" stroke-width="3"/>
+  <line x1="250" y1="70" x2="250" y2="86" stroke="#9CA3AF" stroke-width="2"/>
+  
+  <!-- Arrows and Labels -->
+  <!-- Left Side -->
+  <text x="80" y="115" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#047857">Lower Threshold</text>
+  <text x="80" y="130" font-size="9" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">Predicts MORE Positives</text>
+  <text x="80" y="145" font-size="10" font-weight="bold" fill="#10B981">▲ Sensitivity UP</text>
+  <text x="80" y="160" font-size="10" font-weight="bold" fill="#EF4444">▼ Specificity DOWN</text>
+  
+  <!-- Right Side -->
+  <text x="570" y="115" text-anchor="end" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#D97706">Higher Threshold</text>
+  <text x="570" y="130" text-anchor="end" font-size="9" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">Predicts FEWER Positives</text>
+  <text x="570" y="145" text-anchor="end" font-size="10" font-weight="bold" fill="#EF4444">▼ Sensitivity DOWN</text>
+  <text x="570" y="160" text-anchor="end" font-size="10" font-weight="bold" fill="#10B981">▲ Specificity UP</text>
+  
+  <text x="250" y="55" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Decision Threshold Decision Line</text>
+</svg>

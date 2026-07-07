@@ -13,11 +13,15 @@ Entropy is a number that measures **how mixed up / impure / surprising** a set o
 - **Scenario 1 — all one type**: if every dog at the party is a Chihuahua, there's total predictability — pick a random dog and you know exactly what it is. This should give **entropy = 0** (no surprise, no impurity).
 - **Scenario 2 — perfectly even mix**: if the party has an equal split of Chihuahuas, Pugs, and mixed breeds, picking a random dog is maximally unpredictable — this gives the **highest possible entropy**.
 
+![Visualising Entropy Impurity Bins](./images/entropy_impurity.svg)
+
 ### 3. The formula
 ```
 Entropy = -Σ [ p(i) * log2( p(i) ) ]
 ```
 - For each category `i`, take its probability `p(i)` (fraction of the group it makes up), multiply by log base 2 of that probability, sum across all categories, then flip the sign (because log of a fraction is negative, so we negate to get a positive entropy value).
+
+![The Binary Entropy Curve Plot](./images/entropy_curve.svg)
 
 ### 4. Working through a simple example
 - Say a party has 8 dogs: 4 Chihuahuas, 4 Pugs (no mixed breeds, just to keep numbers simple).

@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8091b215bebdafdf",
+        "id": "d105add974d23824",
         "type": "tabs",
         "children": [
           {
-            "id": "327ec74fffad8fdf",
+            "id": "5cc262fee992d0e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine-Learning/stat-foundation/T-Test, Chi-Square, ANOVA, Correlation — when to use what.md",
+                "file": "StatsQuest/#15_odds_ratios_and_log_odds_ratios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "T-Test, Chi-Square, ANOVA, Correlation — when to use what"
-            }
-          },
-          {
-            "id": "068dfa9d420a53b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bias and Variance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bias and Variance"
-            }
-          },
-          {
-            "id": "ed2448434c08a46a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information-Gain.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Information-Gain"
-            }
-          },
-          {
-            "id": "0c65f6a6c1ad3e9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information-Gain.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Information-Gain"
+              "title": "#15_odds_ratios_and_log_odds_ratios"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information-Gain.md",
+                "file": "StatsQuest/#15_odds_ratios_and_log_odds_ratios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Information-Gain"
+              "title": "Outline of #15_odds_ratios_and_log_odds_ratios"
             }
           }
         ],
@@ -213,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,52 +184,54 @@
       "bases:Create new base": false
     }
   },
-  "active": "62c9acb2a982b415",
+  "active": "5cc262fee992d0e4",
   "lastOpenFiles": [
+    "StatsQuest/#20_saturated_models_and_deviance.md",
     "StatsQuest/#05: Sensitivity, Specificity, Precision & Recall — The Complete Picture.md",
     "StatsQuest/#04: Machine Learning Fundamentals — Sensitivity and Specificity.md",
     "StatsQuest/#03: Machine Learning Fundamentals — The Confusion Matrix.md",
+    "StatsQuest/#11_multiple_regression.md",
+    "StatsQuest/#12_linear_models_ttests_anova.md",
+    "StatsQuest/#17_logistic_regression_pt1_coefficients.md",
+    "StatsQuest/images/design_matrix_dummy.svg",
+    "StatsQuest/images/design_matrix_height.svg",
+    "StatsQuest/images/confusion_matrix_sample.svg",
+    "StatsQuest/#13_design_matrices.md",
+    "StatsQuest/#14_odds_and_log_odds.md",
+    "StatsQuest/#15_odds_ratios_and_log_odds_ratios.md",
+    "StatsQuest/#16_logistic_regression.md",
+    "StatsQuest/#18_logistic_regression_pt2_maximum_likelihood.md",
+    "StatsQuest/images/deviance_reduction.svg",
+    "StatsQuest/images/ols_ml_comparison.svg",
+    "StatsQuest/images/pseudo_r2_scale.svg",
+    "StatsQuest/images/maximum_likelihood_loop.svg",
+    "StatsQuest/images/likelihood_contributions.svg",
+    "StatsQuest/images/wald_test.svg",
+    "StatsQuest/images/logistic_coefficients.svg",
+    "StatsQuest/images",
+    "StatsQuest/#19_logistic_regression_pt3_r_squared_pvalue.md",
+    "StatsQuest/#10_linear_regression.md",
+    "StatsQuest/#09_main_ideas_fitting_a_line.md",
+    "StatsQuest/#07_entropy.md",
+    "StatsQuest/#08_mutual_information.md",
+    "StatsQuest/#06_bias_and_variance.md",
+    "Information-Gain.md",
+    "Bias and Variance.md",
+    "Machine-Learning/stat-foundation/T-Test, Chi-Square, ANOVA, Correlation — when to use what.md",
+    "StatsQuest/#02: Machine Learning Fundamentals — Cross Validation.md",
+    "StatsQuest/#01: A Gentle Introduction to Machine Learning.md",
+    "StatsQuest/17_logistic_regression_pt1_coefficients.md",
+    "StatsQuest/06_bias_and_variance.md",
+    "StatsQuest/14_odds_and_log_odds.md",
     "package-lock.json",
     "node_modules/moment/moment.d.ts",
     "node_modules/moment/ts3.1-typings/moment.d.ts",
     "node_modules/moment/ts3.1-typings",
-    "node_modules/moment/README.md",
-    "node_modules/moment/CHANGELOG.md",
     "node_modules/moment/package.json",
     "node_modules/moment/src/locale/zh-tw.js",
     "node_modules/moment/locale/zh-tw.js",
     "node_modules/moment/dist/locale/zh-tw.js",
     "node_modules/moment/src/locale/zh-mo.js",
-    "node_modules/moment/locale/zh-mo.js",
-    "node_modules/@kwsites/file-exists/readme.md",
-    "node_modules/@kwsites/file-exists/CHANGELOG.md",
-    "node_modules/simple-git/readme.md",
-    "node_modules/ms/readme.md",
-    "node_modules/ms/license.md",
-    "node_modules/debug/README.md",
-    "StatsQuest/#02: Machine Learning Fundamentals — Cross Validation.md",
-    "StatsQuest/#01: A Gentle Introduction to Machine Learning.md",
-    "StatsQuest/01: A Gentle Introduction to Machine Learning.md",
-    "Untitled.md",
-    "Information-Gain.md",
-    "Bias and Variance.md",
-    "Machine-Learning/stat-foundation/T-Test, Chi-Square, ANOVA, Correlation — when to use what.md",
-    "Statistics/Population vs Statistics.md",
-    "Statistics/Gaussian Distribution.md",
-    "Statistics/Covariance.md",
-    "Statistics/Mean, Median, Mode.md",
-    "Statistics/Random Variable & Its Types.md",
-    "Statistics/P value - The Null Hypothesis test.md",
-    "SVM kernels - Part 3.md",
-    "Untitled.canvas",
-    "Pasted image 20260420181951.png",
-    "Pasted image 20260420181654.png",
-    "old/media/qsn-graph.png",
-    "old/media/Linearity In Regression.png",
-    "old/media/Introduction To linear Regression.png",
-    "old/media/Graph of Linear Regression.png",
-    "old/media/Gradient Descent.png",
-    "old/media/Constant variange.png",
-    "Pasted image 20260420161631.png"
+    "Untitled.canvas"
   ]
 }

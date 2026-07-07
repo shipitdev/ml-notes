@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 200" width="100%" height="100%">
+  <rect width="650" height="200" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Probability, Odds, and Log(Odds) Scales Aligned</text>
+  
+  <!-- Probability -->
+  <g transform="translate(150, 40)">
+    <text x="-10" y="15" text-anchor="end" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Probability (p)</text>
+    <line x1="0" y1="10" x2="350" y2="10" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="175" cy="10" r="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+    <text x="0" y="27" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">0.0 (Impossible)</text>
+    <text x="175" y="27" text-anchor="middle" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563" font-weight="bold">0.5 (50/50)</text>
+    <text x="350" y="27" text-anchor="end" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563" font-weight="bold">1.0 (Certain)</text>
+  </g>
+  
+  <!-- Odds -->
+  <g transform="translate(150, 95)">
+    <text x="-10" y="15" text-anchor="end" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Odds (p/1-p)</text>
+    <line x1="0" y1="10" x2="350" y2="10" stroke="#F59E0B" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="58" cy="10" r="6" fill="#FFFFFF" stroke="#D97706" stroke-width="2"/>
+    <text x="0" y="27" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">0.0</text>
+    <text x="58" y="27" text-anchor="middle" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563" font-weight="bold">1.0 (Even)</text>
+    <text x="350" y="27" text-anchor="end" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">+\u221e</text>
+  </g>
+  
+  <!-- Log(Odds) -->
+  <g transform="translate(150, 150)">
+    <text x="-10" y="15" text-anchor="end" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Log(Odds)</text>
+    <line x1="0" y1="10" x2="350" y2="10" stroke="#10B981" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="175" cy="10" r="6" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+    <text x="0" y="27" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">-\u221e</text>
+    <text x="175" y="27" text-anchor="middle" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563" font-weight="bold">0.0 (Even)</text>
+    <text x="350" y="27" text-anchor="end" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">+\u221e</text>
+  </g>
+</svg>

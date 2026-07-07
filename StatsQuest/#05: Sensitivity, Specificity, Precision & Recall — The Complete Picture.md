@@ -101,6 +101,8 @@ $$\text{Recall} = \frac{TP}{TP + FN} = \mathbf{80\%}$$
 | **Sensitivity / Recall** | Actual Positive row       | TP + FN (all actual positives)    |
 | **Precision**            | Predicted Positive column | TP + FP (all predicted positives) |
 
+![Precision Column Focus](./images/precision_col.svg)
+
 **Sensitivity** is about **completeness** — did you find all the positives?
 **Precision** is about **accuracy** — were your positive predictions correct?
 
@@ -113,6 +115,8 @@ When you want a single number that balances Precision and Recall:
 $$F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$$
 
 This is the **harmonic mean** of Precision and Recall. It's lower than the arithmetic average — which means it's only high if **both** Precision AND Recall are high.
+
+![F1 Score Harmonic Mean Balance](./images/f1_harmonic_mean.svg)
 
 ---
 

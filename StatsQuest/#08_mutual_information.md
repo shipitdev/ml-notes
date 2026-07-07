@@ -4,6 +4,8 @@
 ## The Big Idea
 Mutual Information measures **how much knowing one variable tells you about another variable**. If two variables are totally unrelated, Mutual Information = 0. If they're tightly linked, Mutual Information is large.
 
+![Information Overlap Venn Diagram](./images/entropy_venn.svg)
+
 ## Flow of the Video
 
 ### 1. Setting up the example
@@ -24,6 +26,8 @@ Mutual Information = Entropy(Disease) - Weighted Average of Entropy(Disease | Ex
 ```
 - In words: take the overall uncertainty about heart disease, then subtract the *leftover* uncertainty once you already know someone's exercise status (weighted by how many people are in each exercise group).
 - The amount of uncertainty that "disappears" once you know exercise status = Mutual Information.
+
+![Information Gain Node Split Flow](./images/information_gain.svg)
 
 ### 5. Interpreting the number
 - **Mutual Information = 0**: knowing exercise status tells you nothing new about heart disease (they're statistically independent).

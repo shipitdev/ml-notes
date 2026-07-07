@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 250" width="100%" height="100%">
+  <rect width="650" height="250" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">The Bias-Variance Trade-off Curve</text>
+  
+  <!-- Axes -->
+  <line x1="80" y1="200" x2="570" y2="200" stroke="#4B5563" stroke-width="2"/>
+  <line x1="80" y1="50" x2="80" y2="200" stroke="#4B5563" stroke-width="2"/>
+  <text x="325" y="225" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Model Complexity (Flexibility)</text>
+  <text x="45" y="125" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" transform="rotate(-90 45 125)">Error</text>
+  
+  <!-- Curves -->
+  <!-- Bias (goes down) -->
+  <path d="M 90 60 Q 200 170 560 185" fill="none" stroke="#EF4444" stroke-width="2"/>
+  <text x="180" y="140" font-size="10" fill="#EF4444" font-weight="bold">Bias²</text>
+  
+  <!-- Variance (goes up) -->
+  <path d="M 90 190 Q 250 180 560 60" fill="none" stroke="#3B82F6" stroke-width="2"/>
+  <text x="450" y="140" font-size="10" fill="#3B82F6" font-weight="bold">Variance</text>
+  
+  <!-- Total Error (U-shape) -->
+  <path d="M 90 70 Q 260 180 560 85" fill="none" stroke="#4F46E5" stroke-width="3"/>
+  <text x="260" y="90" font-size="11" fill="#4F46E5" font-weight="bold">Total Error</text>
+  
+  <!-- Sweet Spot Line -->
+  <line x1="280" y1="50" x2="280" y2="200" stroke="#10B981" stroke-width="1.5" stroke-dasharray="4"/>
+  <rect x="230" y="20" width="100" height="25" rx="4" fill="#D1FAE5" stroke="#10B981" stroke-width="1"/>
+  <text x="280" y="36" text-anchor="middle" font-size="9" fill="#065F46" font-weight="bold">Optimal Sweet Spot</text>
+</svg>

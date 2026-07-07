@@ -24,9 +24,13 @@ log(odds) = log( p / (1-p) )
 - Now winning and losing odds are perfectly symmetric (same size, opposite sign) around **0**, which represents 50/50 odds (log(1) = 0).
 - This symmetry is exactly why statisticians prefer working with log(odds) instead of raw odds or raw probabilities when building models.
 
+![Symmetric Mapping of Probabilities to Log(Odds)](./images/logodds_symmetry.svg)
+
 ### 4. Visualizing probability vs. log(odds)
 - Probability is squeezed between 0 and 1.
 - Log(odds) stretches that same information across the full range from **negative infinity to positive infinity** — this stretching makes it possible to model log(odds) using an ordinary straight line (like in regression), something that raw probability (being bounded 0 to 1) can't do easily.
+
+![Probability, Odds, and Log(Odds) Scales Aligned](./images/odds_logodds_scale.svg)
 
 ### 5. Why this matters for what's coming next
 - **Logistic Regression** (a few videos ahead) fits a straight line to **log(odds)**, not to raw probability — that's the entire trick behind how logistic regression works, and everything from here builds toward that idea.

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 220" width="100%" height="100%">
+  <rect width="650" height="220" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Multiple Regression: Fitting a 3D Plane</text>
+  
+  <!-- 3D Coordinate Grid representation -->
+  <!-- Axes -->
+  <line x1="150" y1="170" x2="450" y2="170" stroke="#9CA3AF" stroke-width="1.5"/> <!-- X1 -->
+  <text x="450" y="185" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">X1 (Size)</text>
+  <line x1="150" y1="170" x2="150" y2="50" stroke="#9CA3AF" stroke-width="1.5"/> <!-- Y -->
+  <text x="130" y="55" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Y (Price)</text>
+  <line x1="150" y1="170" x2="70" y2="210" stroke="#9CA3AF" stroke-width="1.5"/> <!-- X2 -->
+  <text x="50" y="220" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">X2 (Bedrooms)</text>
+  
+  <!-- Regression Plane representation -->
+  <polygon points="180,120 400,70 460,110 240,160" fill="#3B82F6" fill-opacity="0.2" stroke="#2563EB" stroke-width="2"/>
+  <text x="350" y="125" font-size="10" fill="#1D4ED8" font-weight="bold">Regression Plane</text>
+  
+  <!-- Residuals to plane -->
+  <!-- Pt above -->
+  <line x1="330" y1="60" x2="330" y2="110" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="2"/>
+  <circle cx="330" cy="60" r="4.5" fill="#3B82F6"/>
+  <text x="340" y="65" font-size="9" fill="#EF4444" font-weight="bold">Positive residual</text>
+  
+  <!-- Pt below -->
+  <line x1="220" y1="165" x2="220" y2="148" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="2"/>
+  <circle cx="220" cy="165" r="4.5" fill="#3B82F6"/>
+</svg>

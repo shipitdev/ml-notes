@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 250" width="100%" height="100%">
+  <rect width="650" height="250" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Multi-Class Confusion Matrix (3×3)</text>
+  
+  <!-- Column Headers -->
+  <text x="280" y="55" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Pred Cat</text>
+  <text x="380" y="55" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Pred Dog</text>
+  <text x="480" y="55" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Pred Fox</text>
+  
+  <!-- Row Headers -->
+  <text x="210" y="100" text-anchor="end" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Actual Cat</text>
+  <text x="210" y="150" text-anchor="end" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Actual Dog</text>
+  <text x="210" y="200" text-anchor="end" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Actual Fox</text>
+  
+  <!-- Grid Matrix (Active Diagonal) -->
+  <!-- Cat-Cat (Correct) -->
+  <rect x="230" y="70" width="90" height="45" rx="4" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+  <text x="275" y="97" text-anchor="middle" font-size="14" font-weight="bold" fill="#065F46">40</text>
+  <!-- Cat-Dog (Error) -->
+  <rect x="330" y="70" width="90" height="45" rx="4" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+  <text x="375" y="97" text-anchor="middle" font-size="12" fill="#991B1B">3</text>
+  <!-- Cat-Fox (Error) -->
+  <rect x="430" y="70" width="90" height="45" rx="4" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+  <text x="475" y="97" text-anchor="middle" font-size="12" fill="#991B1B">7</text>
+  
+  <!-- Dog-Cat (Error) -->
+  <rect x="230" y="120" width="90" height="45" rx="4" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+  <text x="275" y="147" text-anchor="middle" font-size="12" fill="#991B1B">2</text>
+  <!-- Dog-Dog (Correct) -->
+  <rect x="330" y="120" width="90" height="45" rx="4" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+  <text x="375" y="147" text-anchor="middle" font-size="14" font-weight="bold" fill="#065F46">45</text>
+  <!-- Dog-Fox (Error) -->
+  <rect x="430" y="120" width="90" height="45" rx="4" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+  <text x="475" y="147" text-anchor="middle" font-size="12" fill="#991B1B">3</text>
+  
+  <!-- Fox-Cat (Error) -->
+  <rect x="230" y="170" width="90" height="45" rx="4" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+  <text x="275" y="197" text-anchor="middle" font-size="12" fill="#991B1B">1</text>
+  <!-- Fox-Dog (Error) -->
+  <rect x="330" y="170" width="90" height="45" rx="4" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+  <text x="375" y="197" text-anchor="middle" font-size="12" fill="#991B1B">2</text>
+  <!-- Fox-Fox (Correct) -->
+  <rect x="430" y="170" width="90" height="45" rx="4" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+  <text x="475" y="197" text-anchor="middle" font-size="14" font-weight="bold" fill="#065F46">47</text>
+  
+  <!-- Explanatory legends -->
+  <rect x="20" y="70" width="180" height="145" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1"/>
+  <rect x="30" y="85" width="15" height="15" rx="2" fill="#D1FAE5" stroke="#10B981"/>
+  <text x="55" y="97" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Diagonal = Correct</text>
+  
+  <rect x="30" y="120" width="15" height="15" rx="2" fill="#FEE2E2" stroke="#EF4444"/>
+  <text x="55" y="132" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Off-Diagonal = Confused</text>
+  <text x="30" y="160" font-size="9" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">Example: Actual Cat predicted</text>
+  <text x="30" y="175" font-size="9" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">as Fox 7 times (top-right).</text>
+</svg>

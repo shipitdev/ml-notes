@@ -19,6 +19,8 @@ A t-test and an ANOVA — which are usually taught as separate, special "statist
 - The line's **slope** = the difference between Group B's mean and Group A's mean.
 - Testing whether that slope is significantly different from 0 (using the regression's p-value) is **mathematically identical** to running a classic two-sample t-test.
 
+![The t-test Reframed as a 0/1 Regression|697](./images/ttest_regression.svg)
+
 ### 3. Extending to ANOVA (more than 2 groups)
 - Simple example: comparing average weight across **three** diets (A, B, C) — this is normally handled with ANOVA (Analysis of Variance).
 - Trick: use **two dummy variables** to represent three groups:
@@ -29,6 +31,8 @@ A t-test and an ANOVA — which are usually taught as separate, special "statist
 - The intercept = mean of Diet A (the baseline group).
 - Each dummy's coefficient = the difference between that diet's mean and Diet A's mean.
 - Testing whether **all these coefficients together** are significantly different from 0 (using an F-test, same as in Multiple Regression) is mathematically the same as running an ANOVA.
+
+![ANOVA Reframed as a Multi-Dummy Regression|697](./images/anova_regression.svg)
 
 ### 4. Why this matters
 - t-tests and ANOVA aren't some totally separate universe of statistics — they are **special cases of linear regression** with categorical (0/1 coded) predictors.

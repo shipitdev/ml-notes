@@ -24,11 +24,15 @@ log(odds of disease) = intercept + coefficient × genotype
 - To get an actual Odds Ratio, exponentiate: `Odds Ratio = e^coefficient`.
   - Simple example: if coefficient = 0.7, Odds Ratio = e^0.7 ≈ 2.0 → having the mutation roughly **doubles** the odds of heart disease.
 
+![How Coefficients Map to the Sigmoid Curve|697](./images/logistic_coefficients.svg)
+
 ### 4. How confident are we in this coefficient? The Wald test
 - Just like ordinary regression coefficients have standard errors, so does the logistic regression coefficient.
 - We compute a **Wald statistic**: `z = coefficient / standard error`.
 - This z-value tells us how many standard errors the coefficient is away from 0 (i.e., away from "no effect").
 - A large |z| → a small p-value → we're confident the coefficient (and thus the Odds Ratio) is genuinely different from 1 (no effect), not just noise.
+
+![The Wald Test for Coefficient Significance](./images/wald_test.svg)
 
 ### 5. Watch out: huge standard errors happen with small/sparse data
 - If a category has very few data points (e.g., very few people with the mutation), the standard error can be enormous, making even a large coefficient statistically insignificant.

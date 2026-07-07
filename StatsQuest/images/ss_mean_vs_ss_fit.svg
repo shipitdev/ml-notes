@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 220" width="100%" height="100%">
+  <rect width="650" height="220" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Understanding R²: SS(mean) vs. SS(fit)</text>
+  
+  <!-- Left Panel: SS(mean) -->
+  <g transform="translate(15, 45)">
+    <rect width="295" height="155" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+    <text x="147" y="25" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">SS(mean) [Dumb Baseline]</text>
+    <line x1="40" y1="110" x2="260" y2="110" stroke="#F59E0B" stroke-width="2"/>
+    <text x="250" y="105" text-anchor="end" font-size="8" fill="#D97706" font-weight="bold">Mean Line</text>
+    <!-- Residuals to Mean Line -->
+    <line x1="80" y1="60" x2="80" y2="110" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="2"/>
+    <circle cx="80" cy="60" r="4" fill="#3B82F6"/>
+    <line x1="140" y1="140" x2="140" y2="110" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="2"/>
+    <circle cx="140" cy="140" r="4" fill="#3B82F6"/>
+    <line x1="200" y1="70" x2="200" y2="110" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="2"/>
+    <circle cx="200" cy="70" r="4" fill="#3B82F6"/>
+    <text x="147" y="145" text-anchor="middle" font-size="9" fill="#EF4444" font-weight="bold">Large residuals (High error)</text>
+  </g>
+  
+  <!-- Right Panel: SS(fit) -->
+  <g transform="translate(340, 45)">
+    <rect width="295" height="155" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+    <text x="147" y="25" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">SS(fit) [Fitted Regression]</text>
+    <line x1="40" y1="130" x2="260" y2="60" stroke="#2563EB" stroke-width="2"/>
+    <text x="250" y="70" text-anchor="end" font-size="8" fill="#1D4ED8" font-weight="bold">Fitted Line</text>
+    <!-- Residuals to Fit Line -->
+    <line x1="80" y1="60" x2="80" y2="123" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="2"/>
+    <circle cx="80" cy="60" r="4" fill="#3B82F6"/>
+    <line x1="140" y1="140" x2="140" y2="98" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="2"/>
+    <circle cx="140" cy="140" r="4" fill="#3B82F6"/>
+    <line x1="200" y1="70" x2="200" y2="79" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="2"/>
+    <circle cx="200" cy="70" r="4" fill="#3B82F6"/>
+    <text x="147" y="145" text-anchor="middle" font-size="9" fill="#10B981" font-weight="bold">Small residuals (Low error)</text>
+  </g>
+</svg>

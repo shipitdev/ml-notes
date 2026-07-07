@@ -61,6 +61,8 @@ Actual: Healthy [  FP = 5    |     TN = 45       ]
 
 **Look at just the sick row (Actual: Sick):**
 
+![Sensitivity Focus Row|697](./images/sensitivity_row.svg)
+
 - 40 correctly detected (TP)
 - 10 missed (FN)
 - Total sick = 50
@@ -75,6 +77,8 @@ High Sensitivity = few sick people slipped through undetected.
 
 **Look at just the healthy row (Actual: Healthy):**
 
+![Specificity Focus Row|697](./images/specificity_row.svg)
+
 - 45 correctly cleared (TN)
 - 5 falsely alarmed (FP)
 - Total healthy = 50
@@ -88,6 +92,8 @@ High Specificity = few healthy people were wrongly flagged.
 ### Step 4: The Trade-Off Between Sensitivity and Specificity
 
 Here's the key insight: **you can't maximise both at the same time** with a fixed model.
+
+![Threshold Slider Trade-off](./images/threshold_slider.svg)
 
 If you lower your decision threshold (flag more people as sick):
 

@@ -40,7 +40,11 @@ A machine learning model:
 2. **Discovers** patterns (trains a model)
 3. **Applies** those patterns to new situations (makes predictions)
 
+![Machine Learning Workflow](./images/ml_workflow.svg)
+
 ### Step 2: The Two Main Types of Machine Learning Problems
+
+![Machine Learning Taxonomy](./images/ml_taxonomy.svg)
 
 #### Supervised Learning
 
@@ -99,6 +103,8 @@ A good model doesn't just memorise the training examples. It extracts the **unde
 
 - A model that works on training data but fails on new data = **overfitting** (memorised, didn't learn)
 - A model that doesn't even fit the training data well = **underfitting** (too simple to capture the pattern)
+
+![Underfitting vs. Good Fit vs. Overfitting](./images/overfitting_underfitting.svg)
 
 The goal is a model that **generalises** — performs well on new data it's never seen.
 

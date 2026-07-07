@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 200" width="100%" height="100%">
+  <rect width="650" height="200" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">The Design Matrix Equation: Y = Xβ + e</text>
+  
+  <!-- Equation Blocks -->
+  <!-- Y -->
+  <g transform="translate(40, 45)">
+    <text x="25" y="20" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#EF4444">Y (Outputs)</text>
+    <rect x="5" y="30" width="40" height="100" rx="4" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.5"/>
+    <text x="25" y="55" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">y1</text>
+    <text x="25" y="80" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">y2</text>
+    <text x="25" y="105" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">y3</text>
+  </g>
+  
+  <text x="120" y="115" text-anchor="middle" font-size="20" font-weight="bold" fill="#4B5563">=</text>
+  
+  <!-- X -->
+  <g transform="translate(150, 45)">
+    <text x="60" y="20" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#10B981">X (Design Matrix)</text>
+    <rect x="5" y="30" width="110" height="100" rx="4" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+    <text x="30" y="55" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">1</text> <text x="85" y="55" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">x1</text>
+    <text x="30" y="80" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">1</text> <text x="85" y="80" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">x2</text>
+    <text x="30" y="105" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">1</text> <text x="85" y="105" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">x3</text>
+    <line x1="57" y1="30" x2="57" y2="130" stroke="#D1FAE5" stroke-width="1"/>
+  </g>
+  
+  <text x="295" y="115" text-anchor="middle" font-size="16" font-weight="bold" fill="#4B5563">×</text>
+  
+  <!-- Beta -->
+  <g transform="translate(320, 45)">
+    <text x="25" y="20" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#4F46E5">β (Coeffs)</text>
+    <rect x="5" y="30" width="40" height="100" rx="4" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.5"/>
+    <text x="25" y="65" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">β0</text>
+    <text x="25" y="95" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">β1</text>
+    <line x1="5" y1="80" x2="45" y2="80" stroke="#EEF2FF" stroke-width="1"/>
+  </g>
+  
+  <text x="400" y="115" text-anchor="middle" font-size="18" font-weight="bold" fill="#4B5563">+</text>
+  
+  <!-- e -->
+  <g transform="translate(430, 45)">
+    <text x="25" y="20" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#F59E0B">e (Errors)</text>
+    <rect x="5" y="30" width="40" height="100" rx="4" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="25" y="55" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">e1</text>
+    <text x="25" y="80" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">e2</text>
+    <text x="25" y="105" text-anchor="middle" font-size="10" font-family="Courier New, monospace" font-weight="bold">e3</text>
+  </g>
+</svg>

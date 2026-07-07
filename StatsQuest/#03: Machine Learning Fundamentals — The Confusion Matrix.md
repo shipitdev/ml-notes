@@ -36,6 +36,8 @@ In binary classification (Positive vs. Negative), every prediction falls into on
 | **Actually Positive** |   True Positive (TP)   |  False Negative (FN)   |
 | **Actually Negative** |  False Positive (FP)   |   True Negative (TN)   |
 
+![The 2x2 Confusion Matrix](./images/confusion_matrix_2x2.svg)
+
 Let's use a medical example. Disease = Positive, No Disease = Negative.
 
 - **True Positive (TP):** Patient HAS the disease. Test says YES. ✅ Correct.
@@ -47,11 +49,7 @@ Let's use a medical example. Disease = Positive, No Disease = Negative.
 
 After running your classifier on test data, count how many predictions fell into each category. Arrange in a 2×2 grid:
 
-```
-               Predicted: YES    Predicted: NO
-Actual: YES  [  TP = 90      |   FN = 10     ]
-Actual: NO   [  FP = 15      |   TN = 985    ]
-```
+![Sample Confusion Matrix](./images/confusion_matrix_sample.svg)
 
 ### Step 3: Reading the Matrix
 
@@ -76,12 +74,7 @@ For a deadly disease, missing 10% of sick patients is catastrophic. For spam ema
 
 For problems with more than 2 classes (e.g., Cat, Dog, Fox), the confusion matrix becomes N×N:
 
-```
-              Predicted Cat   Predicted Dog   Predicted Fox
-Actual Cat  [      40      |      3       |      7        ]
-Actual Dog  [       2      |     45       |      3        ]
-Actual Fox  [       1      |      2       |     47        ]
-```
+![Multi-Class Confusion Matrix](./images/multiclass_confusion.svg)
 
 - Diagonal = correct predictions
 - Off-diagonal = mistakes (what did it confuse X for?)

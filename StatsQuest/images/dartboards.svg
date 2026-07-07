@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 320" width="100%" height="100%">
+  <rect width="650" height="320" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Bias vs. Variance Target Analogy</text>
+  
+  <!-- Helper template for a board -->
+  <!-- Board 1: Low Bias, Low Variance (Top-Left) -->
+  <g transform="translate(60, 45)">
+    <circle cx="80" cy="90" r="50" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+    <circle cx="80" cy="90" r="30" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1"/>
+    <circle cx="80" cy="90" r="10" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+    <circle cx="80" cy="90" r="3" fill="#EF4444"/>
+    <!-- Hits -->
+    <circle cx="80" cy="88" r="2" fill="#2563EB"/>
+    <circle cx="78" cy="92" r="2" fill="#2563EB"/>
+    <circle cx="82" cy="91" r="2" fill="#2563EB"/>
+    <circle cx="81" cy="89" r="2" fill="#2563EB"/>
+    <text x="80" y="160" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Low Bias, Low Variance</text>
+  </g>
+  
+  <!-- Board 2: Low Bias, High Variance (Top-Right) -->
+  <g transform="translate(390, 45)">
+    <circle cx="80" cy="90" r="50" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+    <circle cx="80" cy="90" r="30" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1"/>
+    <circle cx="80" cy="90" r="10" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+    <circle cx="80" cy="90" r="3" fill="#EF4444"/>
+    <!-- Hits -->
+    <circle cx="65" cy="70" r="2" fill="#2563EB"/>
+    <circle cx="95" cy="110" r="2" fill="#2563EB"/>
+    <circle cx="60" cy="115" r="2" fill="#2563EB"/>
+    <circle cx="100" cy="75" r="2" fill="#2563EB"/>
+    <text x="80" y="160" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Low Bias, High Variance</text>
+  </g>
+  
+  <!-- Board 3: High Bias, Low Variance (Bottom-Left) -->
+  <g transform="translate(60, 180)">
+    <circle cx="80" cy="70" r="50" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+    <circle cx="80" cy="70" r="30" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1"/>
+    <circle cx="80" cy="70" r="10" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+    <circle cx="80" cy="70" r="3" fill="#EF4444"/>
+    <!-- Hits -->
+    <circle cx="115" cy="45" r="2" fill="#2563EB"/>
+    <circle cx="113" cy="49" r="2" fill="#2563EB"/>
+    <circle cx="117" cy="47" r="2" fill="#2563EB"/>
+    <circle cx="116" cy="43" r="2" fill="#2563EB"/>
+    <text x="80" y="135" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">High Bias, Low Variance</text>
+  </g>
+  
+  <!-- Board 4: High Bias, High Variance (Bottom-Right) -->
+  <g transform="translate(390, 180)">
+    <circle cx="80" cy="70" r="50" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+    <circle cx="80" cy="70" r="30" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1"/>
+    <circle cx="80" cy="70" r="10" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+    <circle cx="80" cy="70" r="3" fill="#EF4444"/>
+    <!-- Hits -->
+    <circle cx="110" cy="30" r="2" fill="#2563EB"/>
+    <circle cx="130" cy="65" r="2" fill="#2563EB"/>
+    <circle cx="105" cy="85" r="2" fill="#2563EB"/>
+    <circle cx="125" cy="15" r="2" fill="#2563EB"/>
+    <text x="80" y="135" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">High Bias, High Variance</text>
+  </g>
+</svg>

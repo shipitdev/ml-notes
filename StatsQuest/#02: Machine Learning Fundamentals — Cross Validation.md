@@ -34,6 +34,8 @@ This works, but has a weakness: your performance estimate depends heavily on **w
 
 Instead of one split, do **K splits**:
 
+![K-Fold Cross Validation Grid](./images/kfold_grid.svg)
+
 1. Divide your data into K equal-sized groups called **folds** (typically K = 10).
 2. **Round 1:** Train on folds 2–10. Test on fold 1. Record the performance score.
 3. **Round 2:** Train on folds 1, 3–10. Test on fold 2. Record the performance score.
@@ -65,6 +67,8 @@ Cross Validation isn't just for evaluation — it's also used for:
 - **Comparing models:** Which model has the better CV score?
 - **Tuning hyperparameters:** Which setting of K (in KNN) or depth (in Decision Trees) gives the best CV score?
 - The winner is the model/setting with the best average CV performance.
+
+![Model Selection and Hyperparameter Tuning with CV](./images/model_selection.svg)
 
 ---
 

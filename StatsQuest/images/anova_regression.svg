@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 200" width="100%" height="100%">
+  <rect width="650" height="200" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">ANOVA Reframed as a Multi-Dummy Regression</text>
+  
+  <!-- Table of mapping -->
+  <rect x="25" y="45" width="600" height="135" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  
+  <!-- Header -->
+  <rect x="25" y="45" width="600" height="30" rx="8" fill="#F3F4F6"/>
+  <text x="40" y="65" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Diet Group</text>
+  <text x="180" y="65" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Dummy B (X1)</text>
+  <text x="300" y="65" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Dummy C (X2)</text>
+  <text x="480" y="65" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Model Representation</text>
+  
+  <!-- Row 1 -->
+  <text x="40" y="95" font-size="11" font-weight="bold" fill="#4F46E5">Diet A (Baseline)</text>
+  <text x="180" y="95" text-anchor="middle" font-size="11" font-weight="bold">0</text>
+  <text x="300" y="95" text-anchor="middle" font-size="11" font-weight="bold">0</text>
+  <text x="480" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#4F46E5">Y = Intercept (Mean A)</text>
+  <line x1="25" y1="105" x2="625" y2="105" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Row 2 -->
+  <text x="40" y="125" font-size="11" font-weight="bold" fill="#3B82F6">Diet B</text>
+  <text x="180" y="125" text-anchor="middle" font-size="11" font-weight="bold" fill="#3B82F6">1</text>
+  <text x="300" y="125" text-anchor="middle" font-size="11" font-weight="bold">0</text>
+  <text x="480" y="125" text-anchor="middle" font-size="11" font-weight="bold" fill="#3B82F6">Y = Intercept + Coeff_B</text>
+  <line x1="25" y1="135" x2="625" y2="135" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Row 3 -->
+  <text x="40" y="155" font-size="11" font-weight="bold" fill="#F59E0B">Diet C</text>
+  <text x="180" y="155" text-anchor="middle" font-size="11" font-weight="bold">0</text>
+  <text x="300" y="155" text-anchor="middle" font-size="11" font-weight="bold" fill="#F59E0B">1</text>
+  <text x="480" y="155" text-anchor="middle" font-size="11" font-weight="bold" fill="#D97706">Y = Intercept + Coeff_C</text>
+</svg>

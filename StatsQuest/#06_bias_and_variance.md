@@ -4,6 +4,8 @@
 ## The Big Idea
 Every model makes errors for one of two fundamental reasons: it's **too simple** to capture the real pattern (Bias), or it's **too sensitive** to the specific quirks of the training data (Variance). A good model finds the balance between the two.
 
+![Bias vs. Variance Target Analogy](./images/dartboards.svg)
+
 ## Flow of the Video
 
 ### 1. Setting up the example
@@ -32,6 +34,8 @@ Every model makes errors for one of two fundamental reasons: it's **too simple**
 - As you make a model more flexible (to reduce bias), it tends to pick up more noise (increasing variance) — and vice versa.
 - The goal is to find the **sweet spot**: a model flexible enough to capture the real trend, but not so flexible that it starts memorizing noise.
 - This is why we use **Cross Validation** (video #2!) — testing on unseen data reveals whether a model is overfitting (great on training, bad on testing = high variance) or underfitting (mediocre on both = high bias).
+
+![Model Complexity Trade-off Curves](./images/bias_variance_tradeoff.svg)
 
 ## Key Takeaways (Quick Recall)
 - **Bias** = error from an overly simple model that can't capture the true pattern → underfitting.

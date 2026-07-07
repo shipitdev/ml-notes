@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 220" width="100%" height="100%">
+  <rect width="650" height="220" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">The Odds Ratio (2×2 Contingency Table)</text>
+  
+  <!-- Table grid -->
+  <rect x="250" y="45" width="360" height="110" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <rect x="250" y="45" width="360" height="30" rx="6" fill="#F3F4F6"/>
+  <text x="340" y="65" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Heart Disease</text>
+  <text x="500" y="65" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">No Heart Disease</text>
+  
+  <text x="240" y="105" text-anchor="end" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">No Exercise</text>
+  <text x="340" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#EF4444">10</text>
+  <text x="500" y="110" text-anchor="middle" font-size="12">20</text>
+  <line x1="250" y1="120" x2="610" y2="120" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <text x="240" y="145" text-anchor="end" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Exercise</text>
+  <text x="340" y="150" text-anchor="middle" font-size="12">5</text>
+  <text x="500" y="150" text-anchor="middle" font-size="12" font-weight="bold" fill="#10B981">20</text>
+  
+  <!-- Calculation box -->
+  <rect x="20" y="45" width="200" height="155" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.5"/>
+  <text x="120" y="70" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Odds Calculations</text>
+  <text x="30" y="95" font-size="9" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">Odds(No Ex) = 10 / 20 = 0.5</text>
+  <text x="30" y="115" font-size="9" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">Odds(Ex)    = 5 / 20  = 0.25</text>
+  <line x1="30" y1="130" x2="210" y2="130" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="120" y="155" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#4F46E5">Odds Ratio (OR)</text>
+  <text x="120" y="180" text-anchor="middle" font-size="14" font-weight="bold" fill="#4F46E5">0.5 / 0.25 = 2.0</text>
+</svg>

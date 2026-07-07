@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 200" width="100%" height="100%">
+  <rect width="650" height="200" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#9CA3AF" />
+    </marker>
+  </defs>
+  <text x="325" y="30" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Hyperparameter &amp; Model Selection with CV</text>
+  
+  <rect x="25" y="70" width="100" height="50" rx="6" fill="#EEF2F6" stroke="#94A3B8" stroke-width="2"/>
+  <text x="75" y="93" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Full Dataset</text>
+  
+  <rect x="180" y="50" width="110" height="35" rx="6" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="235" y="72" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Holdout Test Set (20%)</text>
+  
+  <rect x="180" y="110" width="110" height="35" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+  <text x="235" y="132" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">CV Subset (80%)</text>
+  
+  <rect x="330" y="110" width="110" height="35" rx="6" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="385" y="127" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Iterate CV on options</text>
+  <text x="385" y="139" text-anchor="middle" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">(KNN, Decision Tree...)</text>
+  
+  <rect x="480" y="110" width="145" height="40" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="552.5" y="128" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Train Winner on CV Subset</text>
+  <text x="552.5" y="142" text-anchor="middle" font-size="8" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">Evaluate on Holdout Test Set</text>
+  
+  <path d="M 125 95 L 150 95 L 150 70 L 175 70" fill="none" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 125 95 L 150 95 L 150 127 L 175 127" fill="none" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 290 127 L 325 127" fill="none" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 440 127 L 475 127" fill="none" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 235 85 L 235 97 L 552.5 97 L 552.5 105" fill="none" stroke="#EF4444" stroke-dasharray="4" stroke-width="1.5" marker-end="url(#arrow)"/>
+</svg>

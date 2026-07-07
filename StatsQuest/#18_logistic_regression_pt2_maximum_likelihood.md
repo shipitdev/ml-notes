@@ -19,6 +19,8 @@ Since Logistic Regression can't use "minimize squared residuals" (its outcomes a
 - For each person who **actually is not obese** (true value = 0), their contribution is **1 minus** their predicted probability (i.e., predicted probability of NOT being obese).
 - Multiply all these individual contributions together across every person → this product is the overall **Likelihood** of the data given this particular candidate line.
 
+![Maximum Likelihood Point Contributions|690](./images/likelihood_contributions.svg)
+
 ### 4. Why we use log-likelihood instead of raw likelihood
 - Multiplying many small probabilities together produces an extremely tiny number (computationally awkward).
 - Instead, we take the **log** of each probability and **add them up** (since log turns multiplication into addition) — giving the **log-likelihood**, which is mathematically equivalent for comparison purposes but far more practical to compute.
@@ -27,6 +29,8 @@ Since Logistic Regression can't use "minimize squared residuals" (its outcomes a
 - Just like Least Squares tried different lines to *minimize* SSR, Logistic Regression tries different lines to **maximize** the log-likelihood.
 - In practice, this search isn't brute-force guessing — it uses iterative optimization methods (like gradient ascent) that climb toward the maximum efficiently.
 - The final chosen line (in log-odds space) — and its corresponding S-curve (in probability space) — is the official **fitted Logistic Regression model**.
+
+![Maximum Likelihood Fitting Loop|697](./images/maximum_likelihood_loop.svg)
 
 ## Key Takeaways (Quick Recall)
 - Logistic Regression can't minimize squared residuals like linear regression — it maximizes **likelihood** instead.

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 200" width="100%" height="100%">
+  <rect width="650" height="200" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">OLS vs. Maximum Likelihood Equivalents</text>
+  
+  <!-- Comparison Grid -->
+  <rect x="25" y="45" width="600" height="135" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  
+  <!-- Headers -->
+  <rect x="25" y="45" width="600" height="30" rx="8" fill="#F3F4F6"/>
+  <text x="40" y="65" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Concept Metric</text>
+  <text x="220" y="65" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Linear Regression (OLS)</text>
+  <text x="440" y="65" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Logistic Regression (ML)</text>
+  
+  <!-- Row 1 -->
+  <text x="40" y="95" font-size="10" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">Unexplained Error</text>
+  <text x="220" y="95" font-size="11" font-weight="bold" fill="#4F46E5">Sum of Squared Residuals (SSR)</text>
+  <text x="440" y="95" font-size="11" font-weight="bold" fill="#F59E0B">Residual Deviance</text>
+  <line x1="25" y1="105" x2="625" y2="105" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Row 2 -->
+  <text x="40" y="125" font-size="10" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">Baseline Error</text>
+  <text x="220" y="125" font-size="11" font-weight="bold" fill="#4F46E5">Total Sum of Squares (SS_mean)</text>
+  <text x="440" y="125" font-size="11" font-weight="bold" fill="#F59E0B">Null Deviance</text>
+  <line x1="25" y1="135" x2="625" y2="135" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Row 3 -->
+  <text x="40" y="155" font-size="10" font-family="system-ui, -apple-system, sans-serif" fill="#4B5563">Significance test</text>
+  <text x="220" y="155" font-size="11" font-weight="bold" fill="#4F46E5">F-statistic Test</text>
+  <text x="440" y="155" font-size="11" font-weight="bold" fill="#F59E0B">Chi-squared Likelihood Test</text>
+</svg>

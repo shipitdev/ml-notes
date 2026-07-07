@@ -19,10 +19,14 @@ Deviance = -2 × ( LL(fitted model) - LL(saturated model) )
 - **Lower deviance = better fit** (our model's log-likelihood is closer to the saturated model's maximum possible log-likelihood).
 - This is directly analogous to "Sum of Squared Residuals" in linear regression — deviance plays the same "how much is left unexplained" role, just built from log-likelihoods instead of squared errors.
 
+![OLS vs. Maximum Likelihood Equivalents|697](./images/ols_ml_comparison.svg)
+
 ### 3. Two useful versions of deviance
 - **Null Deviance**: deviance of the simplest possible model (just an intercept, i.e., ignoring all predictors — same as the "overall probability" baseline from the last video) compared to the saturated model.
 - **Residual Deviance**: deviance of our actual fitted model (with predictors included) compared to the saturated model.
 - Comparing Null Deviance to Residual Deviance tells us how much our predictors actually improved the fit — the bigger the drop from Null to Residual Deviance, the more our predictors are helping.
+
+![Deviance Drop &amp; Significance Testing](./images/deviance_reduction.svg)
 
 ### 4. Using Deviance for a formal significance test
 - The **difference** between Null Deviance and Residual Deviance follows a **Chi-squared distribution** (with degrees of freedom equal to the number of predictors added).

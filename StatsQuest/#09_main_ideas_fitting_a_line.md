@@ -13,6 +13,8 @@ To "fit a line" to data, we need a way to measure how good or bad a line is, and
 - For any candidate line, look at each data point's **residual** = the vertical distance between the actual data point and the line's prediction at that x-value.
 - A "good" line has small residuals overall; a "bad" line has large residuals.
 
+![Visualising Regression Residuals](./images/linear_residuals.svg)
+
 ### 3. Why square the residuals instead of just adding them up?
 - If you just add up residuals directly, positive and negative residuals (points above vs. below the line) **cancel out**, which would make an obviously bad line look artificially "good" (sum = 0).
 - Squaring each residual makes everything positive, so they can't cancel out, and it also **punishes big misses more heavily** than small ones.
@@ -27,6 +29,8 @@ SSR = Σ (actual value - predicted value)²
 - Imagine rotating/shifting a candidate line slightly, recomputing SSR each time.
 - Plot **SSR vs. the line's slope/intercept** — this creates a bowl-shaped curve.
 - The bottom of the bowl = the settings (slope & intercept) that give the **smallest possible SSR** — this is the "best fit" line.
+
+![SSR Bowl Curve Optimization](./images/ssr_parabola.svg)
 - (Behind the scenes, calculus — taking a derivative and setting it to zero — is what actually finds the bottom of the bowl instantly, rather than trying every line by brute force. StatQuest keeps this conceptual here and dives into the math in the next video.)
 
 ### 6. This is the essence of "Least Squares"

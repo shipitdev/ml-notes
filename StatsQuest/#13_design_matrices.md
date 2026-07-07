@@ -11,11 +11,7 @@ A "design matrix" is just the organized table of 0s, 1s, and numeric values that
 - Every column = one predictor (including a special column of all 1s for the intercept).
 - Simple example: predicting weight from height for 3 people:
 
-| Intercept (1s) | Height |
-|---|---|
-| 1 | 60 |
-| 1 | 65 |
-| 1 | 70 |
+![Predicting Weight from Height Design Matrix](./images/design_matrix_height.svg)
 
 - This matrix, multiplied by a column of unknown coefficients (intercept, slope), and compared against the actual weights, is exactly the system of equations that least-squares regression solves.
 
@@ -23,11 +19,7 @@ A "design matrix" is just the organized table of 0s, 1s, and numeric values that
 - Recall from the last video: groups get turned into 0/1 dummy columns.
 - Simple example: 3 diets (A, B, C), with Diet A as baseline:
 
-| Intercept | Dummy_B | Dummy_C |
-|---|---|---|
-| 1 | 0 | 0 | ← Diet A person
-| 1 | 1 | 0 | ← Diet B person
-| 1 | 0 | 1 | ← Diet C person
+![Dummy Coded Categorical Design Matrix](./images/design_matrix_dummy.svg)
 
 - This is literally the design matrix used to run the "ANOVA-as-regression" from the previous video.
 
@@ -40,6 +32,9 @@ A "design matrix" is just the organized table of 0s, 1s, and numeric values that
 Coefficients = (XᵀX)⁻¹ Xᵀy
 ```
   (X = design matrix, y = the outcome variable column). You don't need to memorize this formula — the point is that **the design matrix is what makes this equation solvable** for any type of regression, t-test, or ANOVA, all using the exact same underlying method.
+
+![The Design Matrix Equation: Y = X Beta + e](./images/design_matrix_eq.svg)
+
 - Different ways of coding categorical variables (e.g., choosing a different "baseline" group, or using different coding schemes like "sum coding") change the design matrix, and therefore change how you interpret the coefficients — but they don't change the model's overall predictions.
 
 ## Key Takeaways (Quick Recall)

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 180" width="100%" height="100%">
+  <rect width="650" height="180" rx="12" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#9CA3AF" />
+    </marker>
+  </defs>
+  <text x="325" y="25" text-anchor="middle" font-size="14" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">The Wald Test for Coefficient Significance</text>
+  
+  <rect x="25" y="55" width="115" height="55" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="82.5" y="75" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Coefficient (β)</text>
+  <text x="82.5" y="90" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Standard Error (SE)</text>
+  
+  <rect x="180" y="55" width="115" height="55" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="237.5" y="75" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Wald z-score</text>
+  <text x="237.5" y="95" text-anchor="middle" font-size="11" font-family="Courier New, monospace" font-weight="bold" fill="#4F46E5">z = β / SE</text>
+  
+  <rect x="335" y="55" width="125" height="55" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+  <text x="397.5" y="75" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937">Compare to Normal</text>
+  <text x="397.5" y="95" text-anchor="middle" font-size="11" font-family="Courier New, monospace" font-weight="bold" fill="#D97706">p-value</text>
+  
+  <!-- Decisions -->
+  <rect x="500" y="45" width="125" height="35" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+  <text x="562.5" y="66" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#047857">Significant (p &lt; 0.05)</text>
+  
+  <rect x="500" y="95" width="125" height="35" rx="6" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="562.5" y="116" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" fill="#1F2937" fill="#B91C1C">Insignificant (p &gt;= 0.05)</text>
+  
+  <!-- Connections -->
+  <path d="M 140 82.5 L 175 82.5" fill="none" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 295 82.5 L 330 82.5" fill="none" stroke="#9CA3AF" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 460 82.5 L 480 82.5 L 480 62.5 L 495 62.5" fill="none" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 460 82.5 L 480 82.5 L 480 112.5 L 495 112.5" fill="none" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arrow)"/>
+</svg>

@@ -15,6 +15,9 @@ Just like Linear Regression has R² and a p-value to judge how good the model is
 ```
 Pseudo R² = ( LL(overall probability) - LL(fitted model) ) / ( LL(overall probability) - LL(saturated model) )
 ```
+
+![Log-Likelihoods for McFadden's Pseudo R2](./images/pseudo_r2_scale.svg)
+
 - This mirrors the structure of ordinary R² (video #10): numerator = how much better our model is vs. the dumb baseline; denominator = how much better a "perfect" model would be vs. the dumb baseline.
 - Result ranges roughly 0 to 1: higher = our model captures more of the possible improvement over just guessing.
 - Note: Pseudo R² values in logistic regression are typically much smaller than R² values you'd see in linear regression — this is normal and expected, not a red flag by itself.

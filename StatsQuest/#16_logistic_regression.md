@@ -17,6 +17,8 @@ Logistic Regression is used when the thing you're predicting is a **category** (
   - Smoothly transitions through the middle.
 - This S-shaped curve is called the **sigmoid (logistic) function**.
 
+![Linear vs. Logistic Regression for Binary Classes|697](./images/linear_vs_logistic.svg)
+
 ### 3. Connecting back to log(odds) (videos #14-15)
 - Under the hood, Logistic Regression actually fits a **straight line to log(odds)**, not to probability directly (remember: log(odds) stretches probability's 0-to-1 range out to -∞ to +∞, so a straight line finally makes sense there).
 - Formula:
@@ -28,6 +30,8 @@ log(odds) = intercept + slope × x
 p = e^(log odds) / (1 + e^(log odds))
 ```
 - This conversion is exactly what turns the straight line (in log-odds space) into the S-curve (in probability space).
+
+![The Logistic Regression Prediction Pipeline](./images/logistic_pipeline.svg)
 
 ### 4. How do we know the curve is "best"?
 - Unlike Linear Regression's "minimize the sum of squared residuals" approach, Logistic Regression can't use squared residuals in quite the same way (because outcomes are 0/1, not continuous).
